@@ -7,9 +7,18 @@ extern string goal, silver, bronze, forthPalce;        // 1,2,3,4名
 
 class KonckoutStage{
 public:
+	// 比赛信息
+	struct MatchInfo{
+		std::string teamA, teamB;
+		std::string venue;      // 场馆
+	};
 	// 16强赛日程，写在文件中
 	static void scheduel16();
 	// 根据文件中的日程比赛
+	/* 小组赛比赛, 要调用的函数: 
+		void match(string &teamA, string &teamB)
+		...
+	*/
 	static void roundOf16();
 
 	static void scheduel8();
