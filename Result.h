@@ -8,6 +8,7 @@ extern vector<string> groups[8];
 extern vector<string> top16, top8, top4, top2;         // 16强 ~ 2强
 extern string goal, silver, bronze, forthPalce;        // 1,2,3,4名
 
+
 class Result{
 public:
 	// 统计小组赛结果, 将结果写在top16里
