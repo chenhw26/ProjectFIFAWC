@@ -3,6 +3,9 @@
 
 #include <string>
 #include <vector>
+#include <iostream>
+#include <cstdlib>
+using namespace std;
 
 extern map<string, Team> allTeams;
 
@@ -10,7 +13,9 @@ class Team{
 	// 模拟比赛，更新球队的statistic，用Result类成员函数统计球员数据
 	// 要求结果与球队排名相关
 	// 在频幕上打印相关信息
-	friend void match(string &teamA, string &teamB);
+	friend void match(const string &teamA, const string &teamB);
+
+	friend void randomPick(const string &team, vector<Team::Player> &ply);
 public:
 	struct Player{
 		std::string name, team;
@@ -36,6 +41,17 @@ private:
 	std::vector<Player> GK, DF, MF, FW;   // 球员
 };
 
-void match(string &teamA, string &teamB){}
+void randomPick(const string &team, vector<Team::Player> &ply){
+	vector<Team::Player> GKcopy(allTeams[team].GK);
+	int num = rand() % GKcopy.size();
+	ply.push_back(GKcopy[num]);
+	
+}
+
+void match(string &teamA, string &teamB){
+	cout << teamA.country << " vs " << teamB.country << endl;
+	vector<Team::Player> teamAPly, teamBPly;
+
+}
 
 #endif
