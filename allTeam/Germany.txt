@@ -1,0 +1,31 @@
+UEFA
+GK 3
+1	GK	Kevin Trapp
+12	GK	Bernd Leno
+22	GK	Marc-Andr¨¦ ter Stegen
+
+DF 7
+2	DF	Niklas S¨¹le
+3	DF	Marvin Plattenhardt
+4	DF	Matthias Ginter
+5	DF	Mats Hummels
+16	DF	Antonio R¨¹diger
+18	DF	Joshua Kimmich
+25	DF	Marcel Halstenberg
+
+MF 10
+6	MF	Sami Khedira
+7	MF	Julian Draxler
+8	MF	Toni Kroos
+10	MF	Mesut ?zil
+14	MF	Emre Can
+19	MF	Mario G?tze
+20	MF	Julian Brandt
+21	MF	?lkay G¨¹ndo?an
+23	MF	Sebastian Rudy
+24	MF	Leroy San¨¦
+
+FW 3
+9	FW	Sandro Wagner
+11	FW	Timo Werner
+13	FW	Lars Stindl

@@ -1,11 +1,11 @@
 AFC
 
-GK
+GK 3
 1		Eiji Kawashima
 12		Shusaku Nishikawa
 23		Masaaki Higashiguchi
 
-DF
+DF 8
 3		Gen Sh¨­ji
 4		Shintaro Kurumaya
 5		Y¨±to Nagatomo
@@ -15,7 +15,7 @@ DF
 22		Maya Yoshida
 24		Genta Miur
 
-MF
+MF 7
 2		Yosuke Ideguchi
 6		Wataru Endo
 7		Shu Kurata
@@ -24,7 +24,7 @@ MF
 17		Makoto Hasebe
 25		Kazuki Nagasawa
 
-FW
+FW 7
 8		Genki Haraguchi
 9		Kenyu Sugimoto
 10		Takashi Inui

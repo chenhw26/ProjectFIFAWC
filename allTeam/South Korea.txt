@@ -1,0 +1,32 @@
+AFC
+
+GK 3
+1		Kim Seung-gyu
+21		Kim Jin-hyeon
+23		Cho Hyun-woo
+
+DF 8
+18		Kim Young-gwon
+20		Jang Hyun-soo
+3		Kim Jin-su
+14		Go Yo-han
+12		Kim Min-woo
+2		Choi Chul-soon
+5		Kwon Kyung-won
+4		Jung Seung-hyun
+
+MF 10
+16		Ki Sung-yueng
+13		Koo Ja-cheol
+7		Son Heung-min
+19		Yeom Ki-hun
+17		Lee Jae-sung
+6		Jung Woo-young
+8		Lee Myung-joo
+22		Kwon Chang-hoon
+10		Ju Se-jong
+15		Lee Chang-min
+
+FW 2
+11		Lee Keun-ho
+9		Lee Jeong-hyeop

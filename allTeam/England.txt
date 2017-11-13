@@ -1,0 +1,29 @@
+UEFA 
+
+GK 2
+1		Jordan Pickford
+13		Joe Hart
+
+DF 9
+2		Kieran Trippier
+3		Danny Rose
+5		John Stones
+6		Harry Maguire
+12		Kyle Walker
+14		Ryan Bertrand
+15		Joe Gomez
+16		Michael Keane
+21		Gary Cahill
+
+MF 6
+7		Jake Livermore
+8		Eric Dier
+10		Ruben Loftus-Cheek
+17		Jack Cork
+18		Ashley Young
+20		Jesse Lingard
+
+FW 3
+9		Jamie Vardy
+11		Tammy Abraham
+19		Marcus Rashford
