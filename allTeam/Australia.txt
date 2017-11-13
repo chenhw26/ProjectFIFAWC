@@ -1,9 +1,9 @@
 AFC 62
 
 GK 3
-1	GK	Mathew Ryan	
-12	GK	Mitchell Langerak
-18	GK	Danny Vukovic	
+1		Mathew Ryan	
+12		Mitchell Langerak
+18		Danny Vukovic	
 
 DF 8
 2		Milos Degenek	
