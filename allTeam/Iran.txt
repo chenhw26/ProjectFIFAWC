@@ -1,0 +1,34 @@
+AFC
+
+GK 3
+1		Alireza Beiranvand
+12		Mohammad Rashid Mazaheri	
+22		Amir Abedzadeh	
+
+DF 7
+2		Vouria Ghafouri	
+4		Jalal Hosseini	
+5		Milad Mohammadi	
+8		Morteza Pouraliganji	
+13		Rouzbeh Cheshmi	
+23		Ramin Rezaeian	
+24		Saeid Aghaei	
+
+MF 10
+3		Ehsan Hajsafi	
+6		Saeid Ezatolahi	
+7		Saman Ghoddos	
+9		Omid Ebrahimi	
+11		Vahid Amiri	
+14		Ali Karimi	
+15		Akbar Imani	
+18		Alireza Jahanbakhsh	
+21		Ashkan Dejagah 
+25		Ahmad Abdollahzadeh	
+
+FW 5
+10		Karim Ansarifard	
+16		Reza Ghoochannejhad	
+17		Mehdi Taremi	
+19		Kaveh Rezaei	
+20		Sardar Azmoun	

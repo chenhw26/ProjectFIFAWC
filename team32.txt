@@ -1,7 +1,11 @@
-AFC 4
-aaa
-aaa
+AFC
 
-CAF 4
-aaa
-aaa
+CAF
+
+OFC
+
+CONCACAF
+
+CONMEBOL
+
+UEFA
