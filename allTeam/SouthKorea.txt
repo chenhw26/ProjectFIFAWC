@@ -1,30 +1,53 @@
 GK 3
-1Kim Seung-gyu
-21Kim Jin-hyeon
-23Cho Hyun-woo
+1
+Kim Seung-gyu
+21
+Kim Jin-hyeon
+23
+Cho Hyun-woo
 
 DF 8
-18Kim Young-gwon
-20Jang Hyun-soo
-3Kim Jin-su
-14Go Yo-han
-12Kim Min-woo
-2Choi Chul-soon
-5Kwon Kyung-won
-4Jung Seung-hyun
+18
+Kim Young-gwon
+20
+Jang Hyun-soo
+3
+Kim Jin-su
+14
+Go Yo-han
+12
+Kim Min-woo
+2
+Choi Chul-soon
+5
+Kwon Kyung-won
+4
+Jung Seung-hyun
 
 MF 10
-16Ki Sung-yueng
-13Koo Ja-cheol
-7Son Heung-min
-19Yeom Ki-hun
-17Lee Jae-sung
-6Jung Woo-young
-8Lee Myung-joo
-22Kwon Chang-hoon
-10Ju Se-jong
-15Lee Chang-min
+16
+Ki Sung-yueng
+13
+Koo Ja-cheol
+7
+Son Heung-min
+19
+Yeom Ki-hun
+17
+Lee Jae-sung
+6
+Jung Woo-young
+8
+Lee Myung-joo
+22
+Kwon Chang-hoon
+10
+Ju Se-jong
+15
+Lee Chang-min
 
 FW 2
-11Lee Keun-ho
-9Lee Jeong-hyeop
+11
+Lee Keun-ho
+9
+Lee Jeong-hyeop

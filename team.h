@@ -9,7 +9,9 @@ using namespace std;
 class Result;
 
 struct Player{
-	std::string name, team, pos;  // 位置
+	string name;
+	string team;
+	string pos;  // 位置
 	int num;              // 球衣号
 };
 

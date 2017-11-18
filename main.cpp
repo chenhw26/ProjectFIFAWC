@@ -1,5 +1,9 @@
+#include <iostream>
+#include <cstdio>
 #include <vector>
+#include <string>
 #include <map>
+#include <ctime>
 #include "team.h"
 #include "Result.h"
 using namespace std;
@@ -15,8 +19,9 @@ vector<string> top16, top8, top4, top2;         // 16强 ~ 2强
 string goal, silver, bronze, forthPalce;        // 1,2,3,4名
 
 int main(){
+	srand(time(NULL));
 	Team::readin(allTeams);
 	Result res;
-	match(allTeams["Japan"], allTeams["SouthKorea"], res);
+	match(allTeams["Germany"], allTeams["Spain"], res);
 	return 0;
 }

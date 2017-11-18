@@ -1,5 +1,4 @@
-AFC 2
-Japan 46
+AFC 1
 SouthKorea 57
 
 CAF 0
@@ -10,4 +9,7 @@ CONCACAF 0
 
 CONMEBOL 0
 
-UEFA 0
+UEFA 3
+England 7
+Spain 1
+Germany 2

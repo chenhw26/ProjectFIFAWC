@@ -43,10 +43,10 @@ void randomPick(const Team &team, vector<Player> &ply){
 
 void show_ply(const Team &teamA, const Team &teamB,
 	          const vector<Player> &plyA, const vector<Player> &plyB){
-	printf("%-40s%s\n", teamA.country.c_str(), teamB.country.c_str());
+	printf("%-35s%s\n", teamA.country.c_str(), teamB.country.c_str());
 	for(int i = 0; i < 11; ++i){
 		Player A(plyA[i]), B(plyB[i]);
-		printf("#%-2d, %-25s, %s      #%-2d, %-25s, %s\n", A.num, A.name.c_str(), A.pos.c_str(),
+		printf("#%-2d %-20s %s      #%-2d %-20s %s\n", A.num, A.name.c_str(), A.pos.c_str(),
 			                                               B.num, B.name.c_str(), B.pos.c_str());
 	}
 }
@@ -57,7 +57,7 @@ void match(Team &teamA, Team &teamB, Result &res){
 	randomPick(teamA, teamAPly);
 	randomPick(teamB, teamBPly);
 	show_ply(teamA, teamB, teamAPly, teamBPly);
-	double expGoalOfA = 2 * sin(pi * (teamA.rank - teamB.rank) / 124) + 2;
+	double expGoalOfA = 2 * sin(pi * (teamB.rank - teamA.rank) / 124) + 2;
 	double expGoalOfB = 4 - expGoalOfA;
 	int scoreOfA = 0, scoreOfB = 0;
 	cout << "Playing..." << endl;
@@ -78,7 +78,7 @@ void match(Team &teamA, Team &teamB, Result &res){
 				printf("%s did a goal, and it was #%d, %s did the goal.\n", teamB.country.c_str(), goalScorer.num,
 					                                                        goalScorer.name.c_str());
 			}
-			printf("Now is  %s %d:%d %s\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+			printf("Now is  %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
 		}	
 	}
 	printf("Result: %s %d:%d %s", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
@@ -94,13 +94,16 @@ void Team::readin(map<string, Team> &allTeams){
 		fin >> s >> amount;
 		while(amount--){
 			fin >> s >> tmp;
-			allTeams[s].country = s;
-			allTeams[s].rank = tmp;
-			allTeams[s].rgn = allRegion[i];
+			Team team;
+			team.country = s;
+			team.rank = tmp;
+			team.rgn = allRegion[i];
+			allTeams[s] = team;
 		}
 	}
+	fin.close();
 	for(auto p: allTeams){
-		fin.open("allTeam/" + p.first + ".txt");
+		ifstream fin("allTeam/" + p.first + ".txt");
 		for(int i = 0; i < 4; ++i){
 			string pos;
 			int amount, num;
@@ -117,10 +120,11 @@ void Team::readin(map<string, Team> &allTeams){
 				pl.team = p.first;
 				pl.pos = pos;
 				fin >> pl.num;
-				getline(fin, pl.name);
+				fin.ignore(999, '\n');
+				getline(fin, pl.name, '\r');
 				ply -> push_back(pl);
 			}
 		}
+		fin.close();
 	}
-	fin.close();
 }
