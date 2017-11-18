@@ -12,17 +12,17 @@ extern string goal, silver, bronze, forthPalce;        // 1,2,3,4名
 class Result{
 public:
 	// 统计小组赛结果, 将结果写在top16里
-	void groupStage();
+	void groupStage(){}
 
 	// 生成所有队伍排名，按规则排
-	void finalResult();
+	void finalResult(){}
 
 	// 该球员获得一个进球
-	void goal(Team::Player ply);
+	void goal(Player ply){}
 private:
 	vector<string> groupStageResult[8];    // 小组内按名次排序
 	vector<string> Ranklist;               // 所有球队总排名 
-	vector<pair<Team::Player, int> > GoalScorers;   // 后一个int为进球数
+	vector<pair<Player, int> > GoalScorers;   // 后一个int为进球数
 };
 
 #endif

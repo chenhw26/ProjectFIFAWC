@@ -1,0 +1,30 @@
+GK 3
+1Kim Seung-gyu
+21Kim Jin-hyeon
+23Cho Hyun-woo
+
+DF 8
+18Kim Young-gwon
+20Jang Hyun-soo
+3Kim Jin-su
+14Go Yo-han
+12Kim Min-woo
+2Choi Chul-soon
+5Kwon Kyung-won
+4Jung Seung-hyun
+
+MF 10
+16Ki Sung-yueng
+13Koo Ja-cheol
+7Son Heung-min
+19Yeom Ki-hun
+17Lee Jae-sung
+6Jung Woo-young
+8Lee Myung-joo
+22Kwon Chang-hoon
+10Ju Se-jong
+15Lee Chang-min
+
+FW 2
+11Lee Keun-ho
+9Lee Jeong-hyeop

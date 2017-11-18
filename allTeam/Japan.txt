@@ -1,34 +1,32 @@
-AFC
-
 GK 3
-1		Eiji Kawashima
-12		Shusaku Nishikawa
-23		Masaaki Higashiguchi
+1Eiji Kawashima
+12Shusaku Nishikawa
+23Masaaki Higashiguchi
 
 DF 8
-3		Gen Sh身ji
-4		Shintaro Kurumaya
-5		Y迂to Nagatomo
-19		Hiroki Sakai
-20		Tomoaki Makino
-21		G身toku Sakai
-22		Maya Yoshida
-24		Genta Miur
+3Gen Sh身ji
+4Shintaro Kurumaya
+5Y迂to Nagatomo
+19Hiroki Sakai
+20Tomoaki Makino
+21G身toku Sakai
+22Maya Yoshida
+24Genta Miur
 
 MF 7
-2		Yosuke Ideguchi
-6		Wataru Endo
-7		Shu Kurata
-14		Ryota Morioka
-16		Hotaru Yamaguchi
-17		Makoto Hasebe
-25		Kazuki Nagasawa
+2Yosuke Ideguchi
+6Wataru Endo
+7Shu Kurata
+14Ryota Morioka
+16Hotaru Yamaguchi
+17Makoto Hasebe
+25Kazuki Nagasawa
 
 FW 7
-8		Genki Haraguchi
-9		Kenyu Sugimoto
-10		Takashi Inui
-11		Yuya Kubo
-13		Shinzo Koroki
-15		Yuya Osako
-18		Takuma Asano
+8Genki Haraguchi
+9Kenyu Sugimoto
+10Takashi Inui
+11Yuya Kubo
+13Shinzo Koroki
+15Yuya Osako
+18Takuma Asano
