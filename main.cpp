@@ -3,8 +3,11 @@
 #include <vector>
 #include <string>
 #include <ctime>
+
 #include "team.h"
+#include "Draw.h"
 #include "Result.h"
+
 using namespace std;
 
 void match(Team &teamA, Team &teamB, Result &res);
@@ -20,7 +23,9 @@ Team goal, silver, bronze, forthPalce;        // 1,2,3,4名
 int main(){
 	srand(time(NULL));
 	Team::readin(allTeams);
-	Result res;
-	match(allTeams[0], allTeams[1], res);
+	Draw draw;
+	draw.putInPots(allTeams);
+	draw.grouping(groups);
+	Draw::showDrawResult(groups);
 	return 0;
 }

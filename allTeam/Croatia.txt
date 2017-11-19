@@ -1,0 +1,53 @@
+GK 3
+1
+Dominik Livakovic
+12
+Lovre Kalinic
+23
+Danijel Subasic
+
+DF 8
+2
+Sime Vrsaljko
+3
+Ivan Strinic
+5
+Matej Mitrovic
+6
+Dejan Lovren
+13
+Zoran Nizic
+14
+Marin Leovac
+21
+Domagoj Vida
+22
+Josip Pivaric
+
+MF 8
+4
+Ivan Perisic
+7
+Ivan Rakitic
+10
+Luka Modric
+11
+Marcelo Brozovic
+15
+Marko Rog
+18
+Filip Bradaric
+19
+Nikola Vlasic
+20
+Mario Pasalic
+
+FW 4
+8
+Ante Rebic
+9
+Andrej Kramaric
+16
+Nikola Kalinic
+17
+Mario Mandzukic

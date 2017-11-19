@@ -1,34 +1,61 @@
 GK 3
-1		Igor Akinfeev 	
-12		Vladimir Gabulov
-13		Andrey Lunyov
+1
+Igor Akinfeev
+12
+Vladimir Gabulov
+13
+Andrey Lunyov
 
 DF 9
-28		Igor Smolnikov
-30		Fyodor Kudryashov
-5		Viktor Vasin	
-6		Georgi Dzhikiya
-3		Roman Neust?dter
-14		Ilya Kutepov
-22		Konstantin Rausch
-2		M¨¢rio Fernandes
-23		Dmitri Kombarov
+28
+Igor Smolnikov
+30
+Fyodor Kudryashov
+5
+Viktor Vasin
+6
+Georgi Dzhikiya
+3
+Roman Neustdter
+14
+Ilya Kutepov
+22
+Konstantin Rausch
+2
+M¨¢rio Fernandes
+23
+Dmitri Kombarov
 
 MF 11
-18		Yuri Zhirkov
-8		Denis Glushakov
-17		Alan Dzagoev
-24		Aleksandr Golovin
-21		Aleksandr Yerokhin
-15		Aleksei Miranchuk
-16		Roman Zobnin
-4		Vladislav Ignatyev
-25		Daler Kuzyayev
-20		Anton Miranchuk	
-19		Anton Shvets
+18
+Yuri Zhirkov
+8
+Denis Glushakov
+17
+Alan Dzagoev
+24
+Aleksandr Golovin
+21
+Aleksandr Yerokhin
+15
+Aleksei Miranchuk
+16
+Roman Zobnin
+4
+Vladislav Ignatyev
+25
+Daler Kuzyayev
+20
+Anton Miranchuk
+19
+Anton Shvets
 
 FW 4
-9		Aleksandr Kokorin
-10		Fyodor Smolov
-7		Dmitry Poloz
-11		Anton Zabolotny
+9
+Aleksandr Kokorin
+10
+Fyodor Smolov
+7
+Dmitry Poloz
+11
+Anton Zabolotny

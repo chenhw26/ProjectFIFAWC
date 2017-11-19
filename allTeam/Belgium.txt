@@ -1,35 +1,59 @@
-UEFA 
-
 GK 4
-1	Thibaut Courtois
-2	Simon Mignolet
-3	Koen Casteels
-4	Matz Sels
+1
+Thibaut Courtois
+2
+Simon Mignolet
+3
+Koen Casteels
+4
+Matz Sels
 
 DF 8
-5	Jan Vertonghen
-6	Thomas Vermaelen
-7	Thomas Meunier
-8	Laurent Ciman
-9	Jordan Lukaku
-10	Leander Dendoncker
-11	Dedryck Boyata
-12	Christian Kabasele
+5
+Jan Vertonghen
+6
+Thomas Vermaelen
+7
+Thomas Meunier
+8
+Laurent Ciman
+9
+Jordan Lukaku
+10
+Leander Dendoncker
+11
+Dedryck Boyata
+12
+Christian Kabasele
 
 MF 6
-13	Axel Witsel
-14	Mousa Demb¨¦l¨¦
-15	Kevin De Bruyne
-16	Steven Defour
-17	Nacer Chadli
-18	Youri Tielemans
+13
+Axel Witsel
+14
+Mousa Dembnxlnx
+15
+Kevin De Bruyne
+16
+Steven Defour
+17
+Nacer Chadli
+18
+Youri Tielemans
 
 FW 8
-19	Eden Hazard
-20	Romelu Lukaku
-21	Dries Mertens
-22	Kevin Mirallas
-23	Divock Origi
-24	Thorgan Hazard
-25	Adnan Januzaj
-26	Laurent Depoitre
+19
+Eden Hazard
+20
+Romelu Lukaku
+21
+Dries Mertens
+22
+Kevin Mirallas
+23
+Divock Origi
+24
+Thorgan Hazard
+25
+Adnan Januzaj
+26
+Laurent Depoitre

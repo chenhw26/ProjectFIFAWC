@@ -1,0 +1,53 @@
+GK 3
+1
+Farouk Ben Mustapha
+16
+Balbouli
+22
+Moez Ben Cherifia
+
+DF 8
+2
+Syam Ben Youssef
+4
+Yassine Meriah
+5
+Oussama Haddadi
+6
+Rami Bedoui
+12
+Ali Maaloul
+17
+Hamza Mathlouthi
+19
+Khalil Chemmam
+21
+Hamdi Nagguez
+
+MF 7
+3
+Aymen Trabelsi
+10
+Wahbi Khazri
+13
+Ferjani Sassi
+14
+Mohamed Ben Amor
+15
+Karim Aouadhi
+18
+Bassem Srarfi
+20
+Ghailene Chaalali
+
+FW 5
+7
+Youssef Msakni
+8
+Fakhreddine Ben Youssef
+9
+Yoann Touzghar
+11
+Taha Khenissi
+23
+Anice Badri

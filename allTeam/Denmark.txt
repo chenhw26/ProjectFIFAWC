@@ -1,0 +1,55 @@
+GK 3
+1
+Kasper Schmeichel
+16
+Jonas Lossl
+22
+Frederik Ronnow
+
+DF 8
+3
+Jannik Vestergaard
+4
+Simon Kjar
+5
+Jonas Knudsen
+6
+Andreas Christensen
+12
+Andreas Bjelland
+13
+Mathias Jorgensen
+14
+Jens Stryger Larsen
+17
+Peter Ankersen
+
+MF 7
+2
+Mike Jensen
+7
+William Kvist
+8
+Thomas Delaney
+10
+Christian Eriksen
+18
+Lukas Lerager
+19
+Lasse Schone
+23
+Pione Sisto
+
+FW 6
+15
+Viktor Fischer
+11
+Nicklas Bendtner
+9
+Nicolai Jorgensen
+20
+Yussuf Poulsen
+21
+Andreas Cornelius
+24
+Martin Braithwaite

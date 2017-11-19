@@ -1,32 +1,47 @@
 GK 3
-16		Ikechukwu Ezenwa
-1		Daniel Akpeyi
-23		Francis Uzoho
+16
+Ikechukwu Ezenwa
+1
+Daniel Akpeyi
+23
+Francis Uzoho
 
 DF 7
-12		Shehu Abdullahi
-5		William Troost-Ekong
-6		Leon Balogun
-20		Chidozie Awaziem
-3		Uche Henry Agbo
-2		Ola Aina
-17		Tyronne Ebuehi
+12
+Shehu Abdullahi
+5
+William Troost-Ekong
+6
+Leon Balogun
+20
+Chidozie Awaziem
+3
+Uche Henry Agbo
+2
+Ola Aina
+17
+Tyronne Ebuehi
 
 MF 5
-10		John Obi Mikel
-19		John Ogu
-13		Wilfred Ndidi
-8		Etebo Oghenekaro
-15		Chidiebere Nwakali
+10
+John Obi Mikel
+19
+John Ogu
+13
+Wilfred Ndidi
+8
+Etebo Oghenekaro
+15
+Chidiebere Nwakali
 
 FW 5
-7		Ahmed Musa
-14		Kelechi Iheanacho
-18		Alex Iwobi
-11		Henry Onyekuru
-22		Anthony Nwakaeme
-
-
-
-
-
+7
+Ahmed Musa
+14
+Kelechi Iheanacho
+18
+Alex Iwobi
+11
+Henry Onyekuru
+22
+Anthony Nwakaeme

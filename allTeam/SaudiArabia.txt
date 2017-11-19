@@ -1,37 +1,67 @@
 GK 3
-1	Waleed Abdullah
-2	Abdullah Al-Mayouf
-3	Mohammed Al-Owais
+1
+Waleed Abdullah
+2
+Abdullah Al-Mayouf
+3
+Mohammed Al-Owais
 
 DF 11
-4	Osama Hawsawi
-5	Hassan Muath
-6	Mansoor Al-Harbi
-7	Omar Hawsawi
-8	Yasser Al-Shahrani
-9	Motaz Hawsawi
-10	Saeed Al Mowalad
-11	Mohammed Al-Fatil
-12	Mohammed Al-Breik
-13	Abdurahman Al-Obaid
-14	Mohammed Al-Khabrani
+4
+Osama Hawsawi
+5
+Hassan Muath
+6
+Mansoor Al-Harbi
+7
+Omar Hawsawi
+8
+Yasser Al-Shahrani
+9
+Motaz Hawsawi
+10
+Saeed Al Mowalad
+11
+Mohammed Al-Fatil
+12
+Mohammed Al-Breik
+13
+Abdurahman Al-Obaid
+14
+Mohammed Al-Khabrani
 
 MF 13
-15	Taisir Al-Jassim
-16	Yahya Al-Shehri
-17	Salman Al-Faraj
-18	Abdulmalek Al-Khaibri
-19	Salem Al-Dawsari
-20	Salman Al-Moasher
-21	Waleed Bakshween
-22	Housain Al-Mogahwi
-23	Abdulfattah Asiri
-24	Abdullah Otayf
-25	Nooh Al-Mousa
-26	Ali Al-Zaqaan
-27	Abdulmajeed Al-Sulayhem
+15
+Taisir Al-Jassim
+16
+Yahya Al-Shehri
+17
+Salman Al-Faraj
+18
+Abdulmalek Al-Khaibri
+19
+Salem Al-Dawsari
+20
+Salman Al-Moasher
+21
+Waleed Bakshween
+22
+Housain Al-Mogahwi
+23
+Abdulfattah Asiri
+24
+Abdullah Otayf
+25
+Nooh Al-Mousa
+26
+Ali Al-Zaqaan
+27
+Abdulmajeed Al-Sulayhem
 
 FW 3
-28	Muhannad Assiri
-29	Mukhtar Fallatah
-30	Hazaa Al-Hazaa
+28
+Muhannad Assiri
+29
+Mukhtar Fallatah
+30
+Hazaa Al-Hazaa

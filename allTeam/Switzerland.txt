@@ -1,0 +1,55 @@
+GK 3
+1
+Yann Sommer
+12
+Marwin Hitz
+21
+Roman Burki
+
+DF 7
+2
+Stephan Lichtsteiner
+3
+Leo Lacroix
+4
+Nico Elvedi
+5
+Manuel Akanji
+6
+Michael Lang
+13
+Ricardo Rodriguez
+22
+Fabian Schar
+
+MF 10
+8
+Fabian Frei
+10
+Granit Xhaka
+11
+Valon Behrami
+14
+Denis Zakaria
+15
+Blerim Dzemaili
+16
+Gelson Fernandes
+17
+Steven Zuber
+20
+Remo Freuler
+23
+Xherdan Shaqiri
+24
+Edimilson Fernandes
+
+FW 4
+7
+Breel Embolo
+9
+Haris Seferovic
+18
+Admir Mehmedi
+19
+Mario Gavranovic

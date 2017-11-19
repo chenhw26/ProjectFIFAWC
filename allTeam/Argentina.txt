@@ -1,0 +1,57 @@
+GK 3
+1
+Sergio Romero
+12
+Nahuel Guzman
+23
+Agustin Marchesin
+
+DF 6
+2
+Emanuel Mammana
+3
+Federico Fazio
+4
+German Pezzella
+6
+Emiliano Insua
+14
+Javier Mascherano
+17
+Nicolas Otamendi
+
+MF 10
+5
+Leandro Paredes
+8
+Enzo Perez
+13
+Matias Kranevitter
+16
+Diego Perotti
+18
+Eduardo Salvio
+19
+Ever Banega
+20
+Giovani Lo Celso
+22
+Alejandro Gomez
+24
+Emiliano Rigoni
+25
+Fernando Belluschi
+
+FW 6
+7
+Dario Benedetto
+9
+Sergio Aguero
+10
+Lionel Messi
+11
+Angel Di Maria
+21
+Paulo Dybala
+26
+Cristian Pavon

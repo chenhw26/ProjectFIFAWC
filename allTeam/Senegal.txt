@@ -1,0 +1,53 @@
+GK 3
+16
+Khadim Ndiaye
+1
+Clement Diop
+23
+Alfred Gomis
+
+DF 9
+2
+Kara Mbodji
+21
+Lamine Gassama
+3
+Kalidou Koulibaly
+15
+Salif Sane
+19
+Saliou Ciss
+22
+Moussa Wague
+18
+Adama Mbengue
+4
+Fallou Diagne
+12
+Youssouf Sabaly
+
+MF 6
+5
+Idrissa Gana Gueye
+8
+Cheikhou Kouyate
+11
+Cheikh Ndoye
+17
+Papa Alioune Ndiaye
+13
+Alfred Ndiaye
+20
+Assane Diousse
+
+FW 5
+7
+Moussa Sow
+14
+Moussa Konate
+6
+Diafra Sakho
+10
+Opa Nguette
+9
+Mbaye Niang

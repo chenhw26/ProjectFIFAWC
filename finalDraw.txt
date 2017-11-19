@@ -1,0 +1,90 @@
+The First Stage:
+pot1:
+Russia
+Germany
+Brazil
+Portugal
+Argentina
+Belgium
+Poland
+France
+
+pot2:
+Spain
+Peru
+Switzerland
+England
+Colombia
+Mexico
+Uruguay
+Croatia
+
+pot3:
+Denmark
+Iceland
+CostaRica
+Sweden
+Tunisia
+Egypt
+Senegal
+Iran
+
+pot4:
+Serbia
+Nigeria
+Australia
+Japan
+Morocco
+Panama
+SouthKorea
+SaudiArabia
+
+The Final Draw:
+Group A
+Russia
+Mexico
+Iran
+Serbia
+
+Group B
+France
+England
+Egypt
+Australia
+
+Group C
+Germany
+Switzerland
+CostaRica
+SouthKorea
+
+Group D
+Portugal
+Uruguay
+Denmark
+Panama
+
+Group E
+Argentina
+Croatia
+Tunisia
+Japan
+
+Group F
+Poland
+Peru
+Senegal
+SaudiArabia
+
+Group G
+Brazil
+Spain
+Sweden
+Morocco
+
+Group H
+Belgium
+Colombia
+Iceland
+Nigeria
+

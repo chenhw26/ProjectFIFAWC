@@ -1,13 +1,43 @@
-AFC 2
+AFC 5
 Australia 43
+Iran 34
 Japan 44
+SaudiArabia 63
+SouthKorea 62
 
-CAF 0
+CAF 5
+Egypt 30
+Morocco 48
+Nigeria 41
+Senegal 32
+Tunisia 28
 
 OFC 0
 
-CONCACAF 0
+CONCACAF 3
+CostaRica 22
+Mexico 16
+Panama 49
 
-CONMEBOL 0
+CONMEBOL 5
+Argentina 4
+Brazil 2
+Colombia 13
+Peru 10
+Uruguay 17
 
-UEFA 0
+UEFA 14
+Belgium 5
+Croatia 18
+Denmark 19
+England 12
+France 7
+Germany 1
+Iceland 21
+Poland 6
+Portugal 3
+Russia 65
+Serbia 38
+Spain 8
+Sweden 25
+Switzerland 11

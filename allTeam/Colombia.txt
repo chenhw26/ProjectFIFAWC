@@ -1,0 +1,49 @@
+GK 2
+1
+Leandro Castellanos
+12
+Jose Fernando Cuadrado
+
+DF 7
+18
+Frank Fabra
+4
+Stefan Medina
+3
+Oscar Murillo
+13
+Yerry Mina
+25
+Eder Alvarez Balanta
+23
+Davinson Sanchez
+24
+William Tesillo
+
+MF 7
+6
+Carlos Sanchez
+8
+Abel Aguilar
+21
+Edwin Cardona
+20
+Giovanni Moreno
+5
+Wilmar Barrios
+14
+Mateus Uribe
+22
+Jefferson Lerma
+
+FW 5
+7
+Carlos Bacca
+16
+Miguel Borja
+2
+Duvan Zapata
+17
+Felipe Pardo
+26
+Aviles Hurtado

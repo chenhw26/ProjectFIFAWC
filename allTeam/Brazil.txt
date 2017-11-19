@@ -1,34 +1,57 @@
-CONMEBOL
+GK 3
+1
+Alisson
+16
+Cn¢ssio
+23
+Ederson
 
-GK
-1		Alisson	
-16		C¨¢ssio	
-23		Ederson	
+DF 8
+2
+Dani Alves
+3
+Miranda
+4
+Jemerson
+6
+Alex Sandro
+12
+Marcelo
+13
+Marquinhos
+14
+Thiago Silva
+22
+Danilo
 
-DF
-2		Dani Alves	
-3		Miranda	
-4		Jemerson	
-6		Alex Sandro	
-12		Marcelo	
-13		Marquinhos	
-14		Thiago Silva	
-22		Danilo	
+MF 8
+5
+Casemiro
+8
+Renato Augusto
+11
+Philippe Coutinho
+15
+Paulinho
+17
+Fernandinho
+18
+Giuliano
+19
+Willian
+20
+Diego
 
-MF
-5		Casemiro	
-8		Renato Augusto	
-11		Philippe Coutinho	
-15		Paulinho	
-17		Fernandinho	
-18		Giuliano	
-19		Willian 
-20		Diego	
-
-FW
-7		Douglas Costa	
-9		Gabriel Jesus	
-10		Neymar
-21		Roberto
-24		Taison
-25		Diego Souza
+FW 6
+7
+Douglas Costa
+9
+Gabriel Jesus
+10
+Neymar
+21
+Roberto
+24
+Taison
+25
+Diego Souza

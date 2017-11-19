@@ -1,53 +1,57 @@
 GK 3
 1
-Kevin Trapp
+Eiji Kawashima
 12
-Bernd Leno
-22
-Marc-Andre ter Stegen
-
-DF 7
-2
-Niklas Sule
-3
-Marvin Plattenhardt
-4
-Matthias Ginter
-5
-Mats Hummels
-16
-Antonio Rudiger
-18
-Joshua Kimmich
-25
-Marcel Halstenberg
-
-MF 10
-6
-Sami Khedira
-7
-Julian Draxler
-8
-Toni Kroos
-10
-Mesut zil
-14
-Emre Can
-19
-Mario Gtze
-20
-Julian Brandt
-21
-lkay Gundoan
+Shusaku Nishikawa
 23
-Sebastian Rudy
-24
-Leroy Sane
+Masaaki Higashiguchi
 
-FW 3
+DF 8
+3
+Gen Shoji
+4
+Shintaro Kurumaya
+5
+Yuto Nagatomo
+19
+Hiroki Sakai
+20
+Tomoaki Makino
+21
+Gotoku Sakai
+22
+Maya Yoshida
+24
+Genta Miura
+
+MF 7
+2
+Yosuke Ideguchi
+6
+Wataru Endo
+7
+Shu Kurata
+14
+Ryota Morioka
+16
+Hotaru Yamaguchi
+17
+Makoto Hasebe
+25
+Kazuki Nagasawa
+
+FW 7
+8
+Genki Haraguchi
 9
-Sandro Wagner
+Kenyu Sugimoto
+10
+Takashi Inui
 11
-Timo Werner
+Yuya Kubo
 13
-Lars Stindl
+Shinzo Koroki
+15
+Yuya Osako
+18
+Takuma Asano

@@ -1,0 +1,53 @@
+GK 3
+1
+Pedro Gallese
+12
+Carlos Caceda
+21
+Jose Carvallo
+
+DF 8
+2
+Alberto Rodriguez
+3
+Aldo Corzo
+4
+Anderson Santamaria
+5
+Adrian Zela
+6
+Miguel Trauco
+15
+Christian Ramos
+17
+Luis Advincula
+22
+Nilson Loyola
+
+MF 8
+7
+Paolo Hurtado
+8
+Christian Cueva
+13
+Renato Tapia
+14
+Andy Polo
+16
+Wilder Cartagena
+19
+Yoshimar Yotun
+20
+Edison Flores
+23
+Pedro Aquino
+
+FW 4
+9
+Yordy Reyna
+10
+Jefferson Farfan
+11
+Raul Ruidiaz
+18
+Andre Carrillo

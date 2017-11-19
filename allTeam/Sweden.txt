@@ -1,0 +1,57 @@
+GK 3
+1
+Robin Olsen
+12
+Karl-Johan Johnsson
+23
+Kristoffer Nordfeldt
+
+DF 9
+2
+Mikael Lustig
+3
+Victor Lindelof
+4
+Andreas Granqvist 
+5
+Martin Olsson
+6
+Ludwig Augustinsson
+14
+Filip Helander
+16
+Emil Krafth
+18
+Pontus Jansson
+24
+Johan Larsson
+
+MF 9
+7
+Sebastian Larsson
+10
+Emil Forsberg
+13
+Jakob Johansson
+15
+Gustav Svensson
+17
+Viktor Claesson
+19
+Marcus Rohden
+21
+Jimmy Durmaz
+22
+Ken Sema
+25
+Albin Ekdal
+
+FW 4
+8
+Isaac Kiese Thelin
+9
+Marcus Berg
+11
+John Guidetti
+20
+Ola Toivonen

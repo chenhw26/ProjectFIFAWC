@@ -13,7 +13,7 @@ struct Player{
 	string name;
 	string team;
 	string pos;  // 位置
-	int num;              // 球衣号
+	int num;     // 球衣号
 };
 
 class Team{

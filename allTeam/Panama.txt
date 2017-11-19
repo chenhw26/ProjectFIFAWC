@@ -1,0 +1,41 @@
+GK 2
+1
+Jaime Penedo
+12
+Jose Calderon
+
+DF 7
+23
+Felipe Baloy
+15
+Erick Davis
+17
+Luis Ovalle
+13
+Roberto Chen
+4
+Fidel Escobar
+2
+Michael Murillo
+3
+Jan Carlos Vargas
+
+MF 6
+11
+Armando Cooper
+8
+Marcos Sanchez
+19
+Josiel Nunez
+6
+Manuel Vargas
+16
+Leslie Heraldez
+20
+Ricardo Avila
+
+FW 2
+7
+Blas Perez
+9
+Gabriel Torres

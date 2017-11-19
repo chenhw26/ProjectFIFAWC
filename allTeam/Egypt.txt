@@ -1,32 +1,53 @@
-CAF
-
 GK 3
-1		Mohamed Awad
-16		Sherif Ekramy
-23		Ahmed El-Shenawy
+1
+Mohamed Awad
+16
+Sherif Ekramy
+23
+Ahmed El-Shenawy
 
 DF 7
-2		Ali Gabr
-3		Ahmed Elmohamady
-4		Omar Gaber
-5		Ramy Rabia
-7		Ahmed Fathy
-15		Karim Hafez
-20		Saad Samir
+2
+Ali Gabr
+3
+Ahmed Elmohamady
+4
+Omar Gaber
+5
+Ramy Rabia
+7
+Ahmed Fathy
+15
+Karim Hafez
+20
+Saad Samir
 
 MF 9
-6		Sam Morsy
-8		Tarek Hamed
-10		Shikabala
-12		Moamen Zakaria
-14		Ramadan Sobhi
-17		Mohamed Elneny
-19		Abdallah Said
-21		Tr¨¦z¨¦guet
-22		Amr Warda
+6
+Sam Morsy
+8
+Tarek Hamed
+10
+Shikabala
+12
+Moamen Zakaria
+14
+Ramadan Sobhi
+17
+Mohamed Elneny
+19
+Abdallah Said
+21
+Trnxznxguet
+22
+Amr Warda
 
 FW 4
-9		Kouka
-11		Kahraba
-13		Amr Marey
-18		Amr Gamal
+9
+Kouka
+11
+Kahraba
+13
+Amr Marey
+18
+Amr Gamal

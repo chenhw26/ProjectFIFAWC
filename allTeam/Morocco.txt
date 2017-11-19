@@ -1,0 +1,59 @@
+GK 3
+12
+Munir Mohamedi
+1
+Yassine Bounou
+22
+Ahmed Reda Tagnaouti
+
+DF 9
+5
+Medhi Benatia
+17
+Nabil Dirar
+6
+Romain Saiss
+3
+Fouad Chafik
+20
+Hamza Mendyl
+2
+Achraf Hakimi
+24
+Jawad El Yamiq
+4
+Badr Banoun
+26
+Oualid El Hajjam
+
+MF 11
+14
+Mbark Boussoufa
+8
+Karim El Ahmadi
+10
+Younes Belhanda
+16
+Nordin Amrabat
+11
+Faycal Fajr
+7
+Hakim Ziyech
+9
+Sofiane Boufal
+25
+Ismail Haddad
+15
+Mimoun Mahi
+18
+Amine Harit
+19
+Sofyan Amrabat
+
+FW
+13
+Khalid Boutaib
+23
+Rachid Alioui
+21
+Achraf Bencharki
