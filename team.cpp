@@ -86,7 +86,7 @@ void match(Team &teamA, Team &teamB, Result &res){
     teamB.sta.set_sta(scoreOfB, scoreOfA);
 }
 
-void Team::readin(map<string, Team> &allTeams){
+void Team::readin(vector<Team> &allTeams){
 	ifstream fin("team32.txt");
 	for(int i = 0; i < 6; ++i){
 		string s;
@@ -98,12 +98,12 @@ void Team::readin(map<string, Team> &allTeams){
 			team.country = s;
 			team.rank = tmp;
 			team.rgn = allRegion[i];
-			allTeams[s] = team;
+			allTeams.push_back(team);
 		}
 	}
 	fin.close();
-	for(auto p: allTeams){
-		ifstream fin("allTeam/" + p.first + ".txt");
+	for(Team &p: allTeams){
+		ifstream fin("allTeam/" + p.country + ".txt");
 		for(int i = 0; i < 4; ++i){
 			string pos;
 			int amount, num;
@@ -111,13 +111,13 @@ void Team::readin(map<string, Team> &allTeams){
 			while(amount--){
 				vector<Player> *ply;
 				switch(i){
-					case 0: ply = &allTeams[p.first].GK; break;
-					case 1: ply = &allTeams[p.first].DF; break;
-					case 2: ply = &allTeams[p.first].MF; break;
-					case 3: ply = &allTeams[p.first].FW; break;
+					case 0: ply = &p.GK; break;
+					case 1: ply = &p.DF; break;
+					case 2: ply = &p.MF; break;
+					case 3: ply = &p.FW; break;
 				}
 				Player pl;
-				pl.team = p.first;
+				pl.team = p.country;
 				pl.pos = pos;
 				fin >> pl.num;
 				fin.ignore(999, '\n');

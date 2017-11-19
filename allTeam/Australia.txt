@@ -1,31 +1,51 @@
-AFC
-
 GK 3
-1		Mathew Ryan	
-12		Mitchell Langerak
-18		Danny Vukovic	
+1
+Mathew Ryan	
+12
+Mitchell Langerak
+18
+Danny Vukovic	
 
 DF 8
-2		Milos Degenek	
-3		Alex Gersbach	
-6		Matthew Jurman	
-7		Josh Risdon	
-8		Bailey Wright	
-16		Aziz Behich	
-19		Ryan McGowan	
-20		Trent Sainsbury	
+2
+Milos Degenek	
+3
+Alex Gersbach	
+6
+Matthew Jurman	
+7
+Josh Risdon	
+8
+Bailey Wright	
+16
+Aziz Behich	
+19
+Ryan McGowan	
+20
+Trent Sainsbury	
 
 MF 8
-5		James Jeggo	
-11		Craig Goodwin	
-13		Aaron Mooy
-14		James Troisi	
-15		Mile Jedinak	
-21		Massimo Luongo	
-22		Jackson Irvine	
-23		Tom Rogic	
+5
+James Jeggo	
+11
+Craig Goodwin	
+13
+Aaron Mooy
+14
+James Troisi	
+15
+Mile Jedinak	
+21
+Massimo Luongo	
+22
+Jackson Irvine	
+23
+Tom Rogic	
 
 FW 3
-4		Tim Cahill	
-9		Tomi Juric	
-17		Nikita Rukavytsya
+4
+Tim Cahill	
+9
+Tomi Juric	
+17
+Nikita Rukavytsya

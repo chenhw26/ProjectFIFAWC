@@ -7,6 +7,7 @@
 using namespace std;
 
 class Result;
+class Draw;
 
 struct Player{
 	string name;
@@ -23,6 +24,7 @@ class Team{
 	friend void randomPick(const Team &team, vector<Player> &ply);
 	friend void show_ply(const Team &teamA, const Team &teamB,
 	          const vector<Player> &plyA, const vector<Player> &plyB);
+	friend class Draw;
 
 public:
 	// 球队数据
@@ -39,17 +41,24 @@ public:
 		int W = 0, D = 0, L = 0, GF = 0, GA = 0, GD = 0, Pts = 0;
 		//  胜      平      负     进球	  失球    净胜球    积分
 	};
+
+	// 根据排名给球队排序
+	bool operator<(const Team &other) const{
+		if(country == "Russia") return true;
+		else if(other.country == "Russia") return false;
+		else return rank < other.rank;
+	}
 	
 	// 将文件中所有队伍信息读入allTeams中，自行写文件
-	static void readin(map<string, Team> &);
+	static void readin(vector<Team> &);
 
 private:
-	std::string country;
+	string country;
 	int rank;                  // 世界排名
 	int group;                 // 小组赛分组
 	string rgn;
 	Statistic sta;
-	std::vector<Player> GK, DF, MF, FW;   // 球员
+	vector<Player> GK, DF, MF, FW;   // 球员
 	static const string allRegion[6];
 };
 

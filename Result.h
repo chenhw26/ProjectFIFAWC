@@ -3,10 +3,10 @@
 
 #include "Team.h"
 
-extern map<string, Team> allTeams;
-extern vector<string> groups[8];
-extern vector<string> top16, top8, top4, top2;         // 16强 ~ 2强
-extern string goal, silver, bronze, forthPalce;        // 1,2,3,4名
+// extern map<string, Team> allTeams;
+// extern vector<string> groups[8];
+// extern vector<string> top16, top8, top4, top2;         // 16强 ~ 2强
+// extern string goal, silver, bronze, forthPalce;        // 1,2,3,4名
 
 
 class Result{

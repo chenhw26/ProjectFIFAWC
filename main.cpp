@@ -2,7 +2,6 @@
 #include <cstdio>
 #include <vector>
 #include <string>
-#include <map>
 #include <ctime>
 #include "team.h"
 #include "Result.h"
@@ -13,15 +12,15 @@ void randomPick(const Team &team, vector<Player> &ply);
 void show_ply(const Team &teamA, const Team &teamB,
 	          const vector<Player> &plyA, const vector<Player> &plyB);
 
-map<string, Team> allTeams;                      // key:球队名
-vector<string> groups[8];                        // 小组赛分组
-vector<string> top16, top8, top4, top2;         // 16强 ~ 2强
-string goal, silver, bronze, forthPalce;        // 1,2,3,4名
+vector<Team> allTeams;                           // key:球队名
+vector<Team> groups[8];                        // 小组赛分组
+vector<Team> top16, top8, top4, top2;         // 16强 ~ 2强
+Team goal, silver, bronze, forthPalce;        // 1,2,3,4名
 
 int main(){
 	srand(time(NULL));
 	Team::readin(allTeams);
 	Result res;
-	match(allTeams["Germany"], allTeams["Spain"], res);
+	match(allTeams[0], allTeams[1], res);
 	return 0;
 }
