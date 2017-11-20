@@ -3,18 +3,11 @@
 
 #include "Team.h"
 #include "Result.h"
+#include "Match.h"
 
 // 小组赛阶段
 class GroupStage{
 public:
-	// 比赛信息
-	struct Match{
-		Match(const Team &A, const Team &B):teamA(A), teamB(B) {}
-		Team teamA, teamB;
-		string venue;      // 场馆
-		int date;
-	};
-
 	// 安排日程存在文件中，安排场馆，打印信息
 	void schedueling(const vector<Team> groups[8], const vector<string> &venues);
 	
