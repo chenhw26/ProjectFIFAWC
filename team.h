@@ -8,6 +8,7 @@ using namespace std;
 
 class Result;
 class Draw;
+class GroupStage;
 
 struct Player{
 	string name;
@@ -20,11 +21,12 @@ class Team{
 	// 模拟比赛，更新球队的statistic，用Result类成员函数统计球员数据
 	// 要求结果与球队排名相关
 	// 在频幕上打印相关信息
-	friend void match(Team &teamA, Team &teamB, Result &res);
+	friend void match(const Team &teamA, const Team &teamB, Result &res);
 	friend void randomPick(const Team &team, vector<Player> &ply);
 	friend void show_ply(const Team &teamA, const Team &teamB,
 	          const vector<Player> &plyA, const vector<Player> &plyB);
 	friend class Draw;
+	friend class GroupStage;
 
 public:
 	// 球队数据

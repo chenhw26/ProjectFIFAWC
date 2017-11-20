@@ -51,7 +51,7 @@ void show_ply(const Team &teamA, const Team &teamB,
 	}
 }
 
-void match(Team &teamA, Team &teamB, Result &res){
+void match(const Team &teamA, const Team &teamB, Result &res){
 	cout << teamA.country << " vs " << teamB.country << endl;
 	vector<Player> teamAPly, teamBPly;
 	randomPick(teamA, teamAPly);
