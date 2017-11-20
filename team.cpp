@@ -51,7 +51,7 @@ void show_ply(const Team &teamA, const Team &teamB,
 	}
 }
 
-void match(const Team &teamA, const Team &teamB, Result &res){
+pair<int, int> match(const Team &teamA, const Team &teamB, Result &res){
 	cout << teamA.country << " vs " << teamB.country << endl;
 	vector<Player> teamAPly, teamBPly;
 	randomPick(teamA, teamAPly);
@@ -82,8 +82,9 @@ void match(const Team &teamA, const Team &teamB, Result &res){
 		}	
 	}
 	printf("Result: %s %d:%d %s", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
-    teamA.sta.set_sta(scoreOfA, scoreOfB);
-    teamB.sta.set_sta(scoreOfB, scoreOfA);
+    // teamA.sta.set_sta(scoreOfA, scoreOfB);
+    // teamB.sta.set_sta(scoreOfB, scoreOfA);
+    return pair<int, int>(scoreOfA, scoreOfB);
 }
 
 void Team::readin(vector<Team> &allTeams){

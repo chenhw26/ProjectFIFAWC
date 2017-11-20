@@ -11,7 +11,7 @@
 
 using namespace std;
 
-void match(const Team &teamA, const Team &teamB, Result &res);
+pair<int, int> match(const Team &teamA, const Team &teamB, Result &res);
 void randomPick(const Team &team, vector<Player> &ply);
 void show_ply(const Team &teamA, const Team &teamB,
 	          const vector<Player> &plyA, const vector<Player> &plyB);
