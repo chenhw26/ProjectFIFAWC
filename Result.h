@@ -48,9 +48,11 @@ public:
 	void goal(const Player &ply);
 
 	void printGoalScorers(ostream &out);
+
 private:
 	static bool cmp1(const pair<Team, Statistic> &A, const pair<Team, Statistic> &B);
 	static bool cmp2(const pair<Player, int> &A, const pair<Player, int> &B);
+	
 	void printResult(ostream &out);
 
 	map<Team, Statistic> Ranklist;                 // 所有球队总排名 

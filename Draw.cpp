@@ -117,7 +117,6 @@ Draw& Draw::grouping(vector<Team> groups[8]){
 				pots[j].erase(pots[j].begin() + tar);
 			}
 			else{
-				printf("solve_conflict\n");
 				int gruopTar, potTar;
 				solve_conflict(pots[j], groups, j, i, potTar, gruopTar);
 				groups[gruopTar][j].group = i;

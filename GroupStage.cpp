@@ -65,7 +65,7 @@ void GroupStage::playing(Result &res) const{
 	for(int i = 0; i < 12; ++i){
 		for(const Match &m: matchesByDate[i]){
 			cout << m.venue << "  June " << m.date + 19 << endl;
-			match(m.teamA, m.teamB, res);
+			m.match(res);
 		}
 	}
 }

@@ -18,6 +18,13 @@ public:
 		int ran = rand();
 		return ran / double(RAND_MAX);
 	}
+
+	// 以概率p返回true
+	static bool random_bool(double p){
+		double t = random_real();
+		if(t < p) return true;
+		return false;
+	}
 	
 	// 生成以mean为lambda值的泊松随机数
 	static int poisson(double mean){
