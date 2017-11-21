@@ -52,7 +52,7 @@ void Result::groupStageResult(vector<Team> &top16){
 		for(int j = 0; j < 2; ++j)
 			top16.push_back(groupResult[i][j].first);
 	printResult(cout);
-	ofstream fout("Result16.txt");
+	ofstream fout("data/Result16.txt");
 	printResult(fout);
 	fout.close();
 }

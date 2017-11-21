@@ -6,7 +6,7 @@
 const string Team::allRegion[6] = {"AFC", "CAF", "OFC", "CONCACF", "CONMEBOL", "UEFA"};
 
 void Team::readin(vector<Team> &allTeams){
-	ifstream fin("team32.txt");
+	ifstream fin("data/team32.txt");
 	for(int i = 0; i < 6; ++i){
 		string s;
 		int tmp, amount;

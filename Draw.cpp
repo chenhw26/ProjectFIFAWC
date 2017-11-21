@@ -19,7 +19,7 @@ const Draw& Draw::showPots() const{
 }
 
 const Draw& Draw::storePots() const{
-	ofstream fout("finalDraw.txt");
+	ofstream fout("data/finalDraw.txt");
 	fout << "The First Stage:" << endl;
 	for(int i = 0; i < 4; ++i){
 		fout << "pot" << i + 1 << ':' << endl;
@@ -47,7 +47,7 @@ void Draw::showDrawResult(const vector<Team> groups[8]){
 }
 
 void Draw::storeDrawResult(const vector<Team> groups[8]){
-	ofstream fout("finalDraw.txt", ios_base::app);
+	ofstream fout("data/finalDraw.txt", ios_base::app);
 	fout << "The Final Draw:" << endl;
 	for(int i = 0; i < 8; ++i){
 		fout << "Group " << char('A' + i) << endl;

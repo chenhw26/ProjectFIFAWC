@@ -6,7 +6,7 @@ using namespace std;
 #include "GroupStage.h"
 
 void GroupStage::readInVenue(vector<string> &venues){
-	ifstream fin("venues.txt");
+	ifstream fin("data/venues.txt");
 	string venue;
 	int amount;
 	fin >> amount;
@@ -38,7 +38,7 @@ void GroupStage::schedueling(const vector<Team> groups[8], const vector<string> 
 		matchesBySquads[i % 8].push_back(curMatch);
 	}
 	printScheduel(cout);
-	ofstream fout("scheduel16.txt");
+	ofstream fout("data/scheduel16.txt");
 	printScheduel(fout);
 	fout.close();
 }
