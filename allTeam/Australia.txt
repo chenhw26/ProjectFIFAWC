@@ -1,51 +1,51 @@
 GK 3
 1
-Mathew Ryan	
+Mathew Ryan
 12
 Mitchell Langerak
 18
-Danny Vukovic	
+Danny Vukovic
 
 DF 8
 2
-Milos Degenek	
+Milos Degenek
 3
-Alex Gersbach	
+Alex Gersbach
 6
-Matthew Jurman	
+Matthew Jurman
 7
-Josh Risdon	
+Josh Risdon
 8
-Bailey Wright	
+Bailey Wright
 16
-Aziz Behich	
+Aziz Behich
 19
-Ryan McGowan	
+Ryan McGowan
 20
-Trent Sainsbury	
+Trent Sainsbury
 
 MF 8
 5
-James Jeggo	
+James Jeggo
 11
-Craig Goodwin	
+Craig Goodwin
 13
 Aaron Mooy
 14
-James Troisi	
+James Troisi
 15
-Mile Jedinak	
+Mile Jedinak
 21
-Massimo Luongo	
+Massimo Luongo
 22
-Jackson Irvine	
+Jackson Irvine
 23
-Tom Rogic	
+Tom Rogic
 
 FW 3
 4
-Tim Cahill	
+Tim Cahill
 9
-Tomi Juric	
+Tomi Juric
 17
 Nikita Rukavytsya

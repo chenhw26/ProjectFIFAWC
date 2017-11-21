@@ -43,6 +43,7 @@ void Draw::showDrawResult(const vector<Team> groups[8]){
 		}
 		printf("\n");
 	}
+	printf("\n");
 }
 
 void Draw::storeDrawResult(const vector<Team> groups[8]){
@@ -96,11 +97,13 @@ void Draw::solve_conflict(const vector<Team> &pot, const vector<Team> groups[8],
 }
 
 Draw& Draw::grouping(vector<Team> groups[8]){
+	pots[0][0].group = 0;
 	groups[0].push_back(pots[0][0]);
 	pots[0].erase(pots[0].begin());
 	for(int i = 1; i < 4; ++i){
 		int tar;
 		pickTeam(pots[i], groups[0], tar);
+		pots[i][tar].group = 0;
 		groups[0].push_back(pots[i][tar]);
 		pots[i].erase(pots[i].begin() + tar);
 	}
@@ -109,13 +112,17 @@ Draw& Draw::grouping(vector<Team> groups[8]){
 		for(int j = 0; j < 4; ++j){
 			int tar;
 			if(pickTeam(pots[j], groups[i], tar)){
+				pots[j][tar].group = i;
 				groups[i].push_back(pots[j][tar]);
 				pots[j].erase(pots[j].begin() + tar);
 			}
 			else{
+				printf("solve_conflict\n");
 				int gruopTar, potTar;
 				solve_conflict(pots[j], groups, j, i, potTar, gruopTar);
+				groups[gruopTar][j].group = i;
 				groups[i].push_back(groups[gruopTar][j]);
+				pots[j][potTar].group = gruopTar;
 				groups[gruopTar][j] = pots[j][potTar];
 				pots[j].erase(pots[j].begin() + potTar);
 			}

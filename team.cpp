@@ -56,7 +56,7 @@ pair<int, int> match(const Team &teamA, const Team &teamB, Result &res){
 	vector<Player> teamAPly, teamBPly;
 	randomPick(teamA, teamAPly);
 	randomPick(teamB, teamBPly);
-	show_ply(teamA, teamB, teamAPly, teamBPly);
+	// show_ply(teamA, teamB, teamAPly, teamBPly);
 	double expGoalOfA = 2 * sin(pi * (teamB.rank - teamA.rank) / 124) + 2;
 	double expGoalOfB = 4 - expGoalOfA;
 	int scoreOfA = 0, scoreOfB = 0;
@@ -65,25 +65,24 @@ pair<int, int> match(const Team &teamA, const Team &teamB, Result &res){
 		int GoalOfA = Random::poisson(expGoalOfA / 10), GoalOfB = Random::poisson(expGoalOfB / 10);
 		scoreOfA += GoalOfA; scoreOfB += GoalOfB;
 		if(GoalOfA || GoalOfB){
-			printf("%d:00 ~ %d:00\n", i * 10, (i + 1) * 10);
+			// printf("%d:00 ~ %d:00\n", i * 10, (i + 1) * 10);
 			for(int j = 0; j < GoalOfA; ++j){
 				Player goalScorer = teamAPly[rand() % 10 + 1];
 				res.goal(goalScorer);
-				printf("%s did a goal, and it was #%d, %s did the goal.\n", teamA.country.c_str(), goalScorer.num,
-					                                                        goalScorer.name.c_str());
+				// printf("%s did a goal, and it was #%d, %s did the goal.\n", teamA.country.c_str(), goalScorer.num,
+					                                                        // goalScorer.name.c_str());
 			}
 			for(int j = 0; j < GoalOfB; ++j){
 				Player goalScorer = teamBPly[rand() % 10 + 1];
 				res.goal(goalScorer);
-				printf("%s did a goal, and it was #%d, %s did the goal.\n", teamB.country.c_str(), goalScorer.num,
-					                                                        goalScorer.name.c_str());
+				// printf("%s did a goal, and it was #%d, %s did the goal.\n", teamB.country.c_str(), goalScorer.num,
+					                                                        // goalScorer.name.c_str());
 			}
-			printf("Now is  %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+			// printf("Now is  %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
 		}	
 	}
-	printf("Result: %s %d:%d %s", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
-    // teamA.sta.set_sta(scoreOfA, scoreOfB);
-    // teamB.sta.set_sta(scoreOfB, scoreOfA);
+	printf("Result: %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+    res.matchResult(teamA, teamB, scoreOfA, scoreOfB);
     return pair<int, int>(scoreOfA, scoreOfB);
 }
 

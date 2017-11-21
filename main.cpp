@@ -18,18 +18,22 @@ void show_ply(const Team &teamA, const Team &teamB,
 
 vector<Team> allTeams;                         // key:球队名
 vector<Team> groups[8];                        // 小组赛分组
-vector<Team> top16, top8, top4, top2;         // 16强 ~ 2强
-Team goal, silver, bronze, forthPalce;        // 1,2,3,4名
+vector<Team> top16;                            // 16强
 vector<string> venues;                        // 场馆
 
 int main(){
 	srand(time(NULL));
 	Team::readin(allTeams);
 	Draw draw;
-	draw.putInPots(allTeams);
+	draw.putInPots(allTeams).showPots();
 	draw.grouping(groups);
+	Draw::showDrawResult(groups);
 	GroupStage groupStage;
 	GroupStage::readInVenue(venues);
 	groupStage.schedueling(groups, venues);
+	Result res(groups);
+	groupStage.playing(res);
+	res.groupStageResult(top16);
+	res.printGoalScorers(cout);
 	return 0;
 }
