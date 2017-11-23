@@ -1,56 +1,56 @@
 Final Result for Group A
 Team          W   D   L   GF  GA  GD  Pts
-Uruguay       2   1   0   12  1   11  7   
-Tunisia       1   2   0   7   2   5   5   
-Panama        1   1   1   6   7   -1  4   
-Russia        0   0   3   1   16  -15 0   
+Peru          3   0   0   13  0   13  9   
+Iran          2   0   1   8   4   4   6   
+Russia        1   0   2   3   11  -8  3   
+Morocco       0   0   3   2   11  -9  0   
 
 Final Result for Group B
 Team          W   D   L   GF  GA  GD  Pts
-Portugal      3   0   0   6   1   5   9   
-Switzerland   2   0   1   5   2   3   6   
-Australia     1   0   2   4   2   2   3   
-Senegal       0   0   3   2   12  -10 0   
+Mexico        2   0   1   5   3   2   6   
+Egypt         2   0   1   7   6   1   6   
+Belgium       1   1   1   5   3   2   4   
+Japan         0   1   2   2   7   -5  1   
 
 Final Result for Group C
 Team          W   D   L   GF  GA  GD  Pts
-Poland        2   0   1   7   3   4   6   
-Croatia       2   0   1   7   3   4   6   
-CostaRica     1   1   1   7   7   0   4   
-Japan         0   1   2   2   10  -8  1   
+Spain         2   1   0   9   1   8   7   
+Poland        2   1   0   6   1   5   7   
+CostaRica     1   0   2   4   10  -6  3   
+Nigeria       0   0   3   3   10  -7  0   
 
 Final Result for Group D
 Team          W   D   L   GF  GA  GD  Pts
-France        3   0   0   9   3   6   9   
-Peru          2   0   1   14  4   10  6   
-Sweden        1   0   2   7   12  -5  3   
-Nigeria       0   0   3   1   12  -11 0   
+Brazil        3   0   0   10  3   7   9   
+England       2   0   1   7   5   2   6   
+Senegal       1   0   2   10  8   2   3   
+Serbia        0   0   3   3   14  -11 0   
 
 Final Result for Group E
 Team          W   D   L   GF  GA  GD  Pts
-Spain         3   0   0   13  3   10  9   
-Argentina     2   0   1   14  5   9   6   
-Egypt         1   0   2   4   10  -6  3   
-SaudiArabia   0   0   3   0   13  -13 0   
+Argentina     3   0   0   11  2   9   9   
+Denmark       2   0   1   5   5   0   6   
+Croatia       1   0   2   6   6   0   3   
+SaudiArabia   0   0   3   0   9   -9  0   
 
 Final Result for Group F
 Team          W   D   L   GF  GA  GD  Pts
-Belgium       2   0   1   5   3   2   6   
-Iran          2   0   1   10  9   1   6   
-England       1   1   1   9   4   5   4   
-Morocco       0   1   2   2   10  -8  1   
+France        3   0   0   10  1   9   9   
+Switzerland   2   0   1   7   2   5   6   
+Tunisia       1   0   2   4   9   -5  3   
+Panama        0   0   3   1   10  -9  0   
 
 Final Result for Group G
 Team          W   D   L   GF  GA  GD  Pts
-Brazil        3   0   0   8   2   6   9   
-Denmark       1   1   1   7   3   4   4   
-Mexico        0   2   1   3   5   -2  2   
-Serbia        0   1   2   3   11  -8  1   
+Portugal      3   0   0   8   0   8   9   
+Sweden        1   1   1   6   3   3   4   
+Uruguay       1   1   1   3   2   1   4   
+Australia     0   0   3   0   12  -12 0   
 
 Final Result for Group H
 Team          W   D   L   GF  GA  GD  Pts
-Germany       3   0   0   12  1   11  9   
-Colombia      2   0   1   12  6   6   6   
-Iceland       1   0   2   4   9   -5  3   
-SouthKorea    0   0   3   0   12  -12 0   
+Germany       2   1   0   7   2   5   7   
+Colombia      2   0   1   7   4   3   6   
+Iceland       1   1   1   7   4   3   4   
+SouthKorea    0   0   3   0   11  -11 0   
 

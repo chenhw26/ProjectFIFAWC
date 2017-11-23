@@ -10,6 +10,7 @@ class Result;
 class Draw;
 class GroupStage;
 class Match;
+class KonckoutStage;
 
 struct Player{
 	string name;
@@ -23,6 +24,7 @@ class Team{
 	friend class GroupStage;
 	friend class Result;
 	friend class Match;
+	friend class KonckoutStage;
 
 public:
 	// 根据排名给球队排序

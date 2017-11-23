@@ -81,7 +81,7 @@ pair<int, int> Match::match(Result &res) const{
 }
 
 pair<int, int> Match::penalties() const{
-	// printf("Now is penaltly shoot-out!!\n");
+	printf("Now is penaltly shoot-out!!\n");
 	int scoreOfA = 0, scoreOfB = 0;
 	double goalRatioOfA, goalRatioOfB;
 	if(teamA.rank < teamB.rank){
@@ -114,6 +114,6 @@ pair<int, int> Match::penalties() const{
 		// printf("%s %s a goal, now is %s %d:%d %s\n", teamB.country.c_str(), (goalB? "did": "missed"), 
 													 // teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
 	}
-	// printf("\nResult: %s %d:%d %s\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+	printf("\nResult: %s %d:%d %s\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
 	return pair<int, int>(scoreOfA, scoreOfB);
 }

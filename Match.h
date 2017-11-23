@@ -8,6 +8,7 @@
 class Match{
 
 friend class GroupStage;
+friend class KonckoutStage;
 
 public:		
 	Match(const Team &A, const Team &B):teamA(A), teamB(B) {}

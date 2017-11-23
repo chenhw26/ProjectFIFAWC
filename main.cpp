@@ -4,10 +4,11 @@
 #include <string>
 #include <ctime>
 
-#include "team.h"
+#include "Team.h"
 #include "Draw.h"
 #include "GroupStage.h"
 #include "Result.h"
+#include "KonckoutStage.h"
 
 using namespace std;
 
@@ -19,25 +20,25 @@ vector<string> venues;                        // 场馆
 int main(){
 	srand(time(NULL));
 	Team::readin(allTeams);
-	Match m(allTeams[23], allTeams[0]);
-	int A = 0, B = 0;
-	for(int i = 0; i < 1000; ++i){
-		pair<int, int> p = m.penalties();
-		if(p.first > p.second) ++A;
-		else ++B;
-	}
-	cout << "Germany win: " << A << endl;
-	cout << "Australia win: " << B << endl;
-	// Draw draw;
-	// draw.putInPots(allTeams).showPots();
-	// draw.grouping(groups);
-	// Draw::showDrawResult(groups);
-	// GroupStage groupStage;
-	// GroupStage::readInVenue(venues);
-	// groupStage.schedueling(groups, venues);
-	// Result res(groups);
-	// groupStage.playing(res);
-	// res.groupStageResult(top16);
-	// res.printGoalScorers(cout);
+	Draw draw;
+	draw.putInPots(allTeams).showPots().storePots();
+	draw.grouping(groups);
+	Draw::showDrawResult(groups); Draw::storeDrawResult(groups);
+	GroupStage groupStage;
+	GroupStage::readInVenue(venues);
+	groupStage.schedueling(groups, venues);
+	Result res(groups);
+	groupStage.playing(res);
+	res.groupStageResult(top16);
+	KonckoutStage konckoutStage(top16);
+	konckoutStage.scheduling16(venues);
+	konckoutStage.playing16(res);
+	konckoutStage.schedulingQuarter(venues);
+	konckoutStage.playingQuarter(res);
+	konckoutStage.schedulingSemi(venues);
+	konckoutStage.playingSemi(res);
+	konckoutStage.schedulingFinal(venues);
+	konckoutStage.playingFinal(res);
+	res.printGoalScorers(cout);
 	return 0;
 }
