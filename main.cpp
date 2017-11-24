@@ -40,5 +40,6 @@ int main(){
 	konckoutStage.playingSemi(res);
 	konckoutStage.schedulingFinal(venues);
 	konckoutStage.playingFinal(res);
+	konckoutStage.showBlacket();
 	return 0;
 }

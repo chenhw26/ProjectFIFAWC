@@ -1215,3 +1215,297 @@ England
 Senegal
 Panama
 
+The Final Draw:
+Group A
+Russia
+England
+Tunisia
+Panama
+
+Group B
+Argentina
+Croatia
+Egypt
+Australia
+
+Group C
+Germany
+Switzerland
+Iran
+Nigeria
+
+Group D
+France
+Peru
+CostaRica
+SaudiArabia
+
+Group E
+Brazil
+Spain
+Sweden
+Morocco
+
+Group F
+Poland
+Colombia
+Denmark
+SouthKorea
+
+Group G
+Belgium
+Mexico
+Senegal
+Serbia
+
+Group H
+Portugal
+Uruguay
+Iceland
+Japan
+
+The Final Draw:
+Group A
+Russia
+Croatia
+CostaRica
+SouthKorea
+
+Group B
+Germany
+Colombia
+Egypt
+Australia
+
+Group C
+Argentina
+England
+Denmark
+Panama
+
+Group D
+France
+Spain
+Tunisia
+SaudiArabia
+
+Group E
+Belgium
+Peru
+Senegal
+Serbia
+
+Group F
+Poland
+Mexico
+Iceland
+Nigeria
+
+Group G
+Portugal
+Uruguay
+Iran
+Morocco
+
+Group H
+Brazil
+Switzerland
+Sweden
+Japan
+
+The Final Draw:
+Group A
+Russia
+Switzerland
+Senegal
+SouthKorea
+
+Group B
+France
+Uruguay
+Sweden
+Panama
+
+Group C
+Belgium
+Colombia
+CostaRica
+Nigeria
+
+Group D
+Brazil
+Croatia
+Iceland
+SaudiArabia
+
+Group E
+Argentina
+Mexico
+Egypt
+Serbia
+
+Group F
+Portugal
+England
+Iran
+Morocco
+
+Group G
+Poland
+Spain
+Tunisia
+Australia
+
+Group H
+Germany
+Peru
+Denmark
+Japan
+
+The Final Draw:
+Group A
+Russia
+England
+Iran
+Morocco
+
+Group B
+Poland
+Spain
+CostaRica
+SouthKorea
+
+Group C
+Argentina
+Mexico
+Denmark
+SaudiArabia
+
+Group D
+Germany
+Uruguay
+Sweden
+Japan
+
+Group E
+Brazil
+Croatia
+Tunisia
+Serbia
+
+Group F
+Belgium
+Colombia
+Iceland
+Nigeria
+
+Group G
+France
+Peru
+Egypt
+Panama
+
+Group H
+Portugal
+Switzerland
+Senegal
+Australia
+
+The Final Draw:
+Group A
+Russia
+Croatia
+Tunisia
+Japan
+
+Group B
+Argentina
+Switzerland
+Denmark
+Australia
+
+Group C
+Belgium
+Uruguay
+CostaRica
+SouthKorea
+
+Group D
+Brazil
+Mexico
+Iran
+Serbia
+
+Group E
+Portugal
+England
+Senegal
+SaudiArabia
+
+Group F
+Germany
+Spain
+Egypt
+Panama
+
+Group G
+Poland
+Colombia
+Sweden
+Nigeria
+
+Group H
+France
+Peru
+Iceland
+Morocco
+
+The Final Draw:
+Group A
+Russia
+Spain
+CostaRica
+SaudiArabia
+
+Group B
+Germany
+Mexico
+Tunisia
+Serbia
+
+Group C
+Portugal
+Peru
+Sweden
+Panama
+
+Group D
+Argentina
+England
+Denmark
+SouthKorea
+
+Group E
+Brazil
+Switzerland
+Senegal
+Australia
+
+Group F
+France
+Croatia
+Egypt
+Japan
+
+Group G
+Poland
+Colombia
+Iceland
+Morocco
+
+Group H
+Belgium
+Uruguay
+Iran
+Nigeria
+

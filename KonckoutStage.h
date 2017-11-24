@@ -54,10 +54,10 @@ private:
 	void readSchedule(const char* fileName, vector<Match>& matches);
 
 	//写入每场比赛的队伍.
-	void writeSchedule(const char* fileNmae, vector<Match>& matches);
+	void writeSchedule(ostream &out, vector<Match>& matches);
 
 	//执行一场比赛，记下胜出队伍，双方得分，点球数.
-	pair<Team, Team> play(const match& match, pair<int, int>& score, pair<int, int>& penalty) const；
+	pair<Team, Team> play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res) const;
 
 	//用于帮助显示晋级图.
 	void appendScore(string& a, string& b, const string& teamA, const string& teamB, 

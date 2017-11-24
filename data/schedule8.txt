@@ -1,15 +1,12 @@
-June 30
-Winner Group A vs Runner-up Group B , Fisht Olympic Stadium, Sochi
-Winner Group C vs Runner-up Group D , Kazan Arena, Kazan
-
-July 1
-Winner Group B vs Runner-up Group A , Luzhniki Stadium, Moscow
-Winner Group D vs Runner-up Group C , Nizhny Novgorod Stadium, Nizhny Novgorod
-
-July 2
-Winner Group E vs Runner-up Group F , Cosmos Arena, Samara
-Winner Group G vs Runner-up Group H , Rostov Arena, Rostov-on-Don
-
-July 3
-Winner Group F vs Runner-up Group E , Krestovsky Stadium, Saint Petersburg
-Winner Group H vs Runner-up Group G , Otkrytiye Arena, Moscow
+30
+Fisht Olympic Stadium, Sochi
+Kazan Arena, Kazan
+1
+Luzhniki Stadium, Moscow
+Nizhny Novgorod Stadium, Nizhny Novgorod
+2
+Cosmos Arena, Samara
+Rostov Arena, Rostov-on-Don
+3
+Krestovsky Stadium, Saint Petersburg
+Otkrytiye Arena, Moscow
