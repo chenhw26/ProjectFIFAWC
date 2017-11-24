@@ -14,7 +14,10 @@ void KonckoutStage:: reArrange(){
 		top16[2*i+1] = teamBs[i];
 	}
 }
-
+/*
+  pre:schedule8.txt 里有八场比赛的日期和场馆，top16 里有16强队伍.
+  pos:把16个队伍安排到8场比赛中，并把安排结果重新放入 schedule8.txt，将比赛放入 Round16里（表格里的顺序，不是时间顺序）.
+*/
 void KonckoutStage:: scheduling16(const vector<string> &venues){
 	reArrange();
 	ofstream out("schedule8.txt");
@@ -29,6 +32,10 @@ void KonckoutStage:: scheduling16(const vector<string> &venues){
 	out.close();
 }
 
+/*
+pre:schedule4.txt 里有四场比赛的比赛日期和场馆，top8 里有8强队伍.
+pos:把8个队伍安排到4场比赛中，并把安排结果重新放入 schedule4.txt，将比赛放入 Quarter_finals里.
+ */
 void KonckoutStage:: schedulingQuarter(const vector<string> &venues){
 	ofstream out("schedule4.txt");
 	for(int i = 0; i < 4; i++){
@@ -42,6 +49,10 @@ void KonckoutStage:: schedulingQuarter(const vector<string> &venues){
 	out.close();
 }
 
+/*
+pre:schedule2.txt 里有2场比赛的比赛日期和场馆，top4 里有4强队伍.
+pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule2.txt，将比赛放入 Semi_finals里.
+ */
 void KonckoutStage:: schedulingSemi(const vector<string> &venues){
 	ofstream out("schedule2.txt");
 	for(int i = 0; i < 2; i++){
@@ -55,6 +66,10 @@ void KonckoutStage:: schedulingSemi(const vector<string> &venues){
 	out.close();
 }
 
+/*
+pre:schedule1.txt 里有2场比赛的比赛日期和场馆，FinalTeams 里有4个队伍.
+pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule1.txt，将比赛放入 Finals里（决赛在前，季军赛在后）.
+ */
 void KonckoutStage:: schedulingFinal(const vector<string> &venues){
 	ofstream out("schedule1.txt");
 	string message[2] = {"Final\n", "Third\n"};
@@ -69,6 +84,10 @@ void KonckoutStage:: schedulingFinal(const vector<string> &venues){
 	out.close();
 }
 
+/*
+pre:Round16 里有非时间顺序的8场比赛.
+pos:按时间顺序开始比赛，并把结果保存到result8.txt 里，把晋级队伍保存到top8.
+ */
 void KonckoutStage::playing16(Result& result){
 	ofstream out("Result8.txt");
 	cout << "\n\nRound of 16\n";
@@ -89,6 +108,10 @@ void KonckoutStage::playing16(Result& result){
 	out.close();
 }
 
+/*
+pre:Quarter_finals 里4场比赛.
+pos:按时间顺序开始比赛，并把结果保存到result4.txt 里，把晋级队伍保存到top4.
+ */
 void KonckoutStage::playingQuarter(Result& result){
 	ofstream out("Result4.txt");
 	cout << "\n\nQuarter finals\n";
@@ -109,6 +132,10 @@ void KonckoutStage::playingQuarter(Result& result){
 	out.close();
 }
 
+/*
+pre:Semi_finals 里有的2场比赛.
+pos:按时间顺序开始比赛，并把结果保存到result2.txt 里，四个队伍按结果重排，放到FinalTeams.
+ */
 void KonckoutStage::playingSemi(Result& result){
 	ofstream out("Result2.txt");
 	cout << "\n\nSemi finals\n";
@@ -140,6 +167,10 @@ void KonckoutStage::playingSemi(Result& result){
 	out.close();
 }
 
+/*
+pre:Final 里有2场比赛.
+pos:按时间顺序开始比赛，并把结果保存到result1.txt 里，把四个队伍重排放到rank.
+ */
 void KonckoutStage:: playingFinal(Result& result){
 	ofstream out("Result1.txt");
 	pair<int, int> scores, penalty = {0, 0};

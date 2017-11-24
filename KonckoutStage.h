@@ -24,7 +24,7 @@ public:
 	void scheduling16(const vector<string> &venues);
 	
 	//依次进行16强比赛，胜利的队伍晋级8强.
-	void playing16(Result& result);	
+	void playing16(Result& result);
 	
 	// 7 月 7 日开始，每天两场比赛.
 	void schedulingQuarter(const vector<string> &venues);
@@ -49,7 +49,7 @@ private:
 	void showMatch(ostream& out, const string message, const string nameA, const string nameB, 
 		const pair<int, int> &score, const pair<int, int> &penalty)const;
 	void showSchedule(ostream& out, const string message, const Match &match)const;
-	vector<Team> top16, top8, top4, FinalTeams;
+	vector<Team> top16, top8, top4, FinalTeams, rank;
 	vector<Match> Round16, Quarter_finals, Semi_finals, Final;
 };
 
