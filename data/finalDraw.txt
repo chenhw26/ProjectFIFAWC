@@ -235,3 +235,640 @@ Mexico
 Tunisia
 SaudiArabia
 
+The Final Draw:
+Group A
+Russia
+Switzerland
+Tunisia
+Australia
+
+Group B
+Argentina
+Mexico
+Denmark
+Serbia
+
+Group C
+Germany
+Colombia
+Egypt
+Japan
+
+Group D
+France
+Uruguay
+Senegal
+SaudiArabia
+
+Group E
+Poland
+England
+CostaRica
+SouthKorea
+
+Group F
+Portugal
+Croatia
+Iran
+Nigeria
+
+Group G
+Brazil
+Spain
+Iceland
+Panama
+
+Group H
+Belgium
+Peru
+Sweden
+Morocco
+
+The Final Draw:
+Group A
+Russia
+Croatia
+Senegal
+Australia
+
+Group B
+France
+Colombia
+CostaRica
+Morocco
+
+Group C
+Poland
+Mexico
+Iceland
+Nigeria
+
+Group D
+Brazil
+Spain
+Egypt
+SaudiArabia
+
+Group E
+Argentina
+Switzerland
+Tunisia
+Serbia
+
+Group F
+Germany
+England
+Iran
+Panama
+
+Group G
+Belgium
+Peru
+Sweden
+SouthKorea
+
+Group H
+Portugal
+Uruguay
+Denmark
+Japan
+
+The Final Draw:
+Group A
+Russia
+Colombia
+Iran
+Serbia
+
+Group B
+France
+Uruguay
+Egypt
+SaudiArabia
+
+Group C
+Brazil
+Switzerland
+Senegal
+Australia
+
+Group D
+Portugal
+Mexico
+Denmark
+Morocco
+
+Group E
+Germany
+Peru
+Iceland
+SouthKorea
+
+Group F
+Argentina
+Spain
+Sweden
+Japan
+
+Group G
+Poland
+England
+Tunisia
+Panama
+
+Group H
+Belgium
+Croatia
+CostaRica
+Nigeria
+
+The Final Draw:
+Group A
+Russia
+Peru
+CostaRica
+Australia
+
+Group B
+Poland
+Colombia
+Tunisia
+Panama
+
+Group C
+France
+Croatia
+Egypt
+SouthKorea
+
+Group D
+Germany
+Mexico
+Denmark
+Morocco
+
+Group E
+Argentina
+England
+Sweden
+Nigeria
+
+Group F
+Belgium
+Spain
+Senegal
+Japan
+
+Group G
+Portugal
+Uruguay
+Iceland
+SaudiArabia
+
+Group H
+Brazil
+Switzerland
+Iran
+Serbia
+
+The Final Draw:
+Group A
+Russia
+Peru
+Iran
+Morocco
+
+Group B
+Belgium
+Switzerland
+Tunisia
+SouthKorea
+
+Group C
+Argentina
+Spain
+Iceland
+Nigeria
+
+Group D
+France
+England
+Senegal
+SaudiArabia
+
+Group E
+Poland
+Mexico
+Sweden
+Japan
+
+Group F
+Portugal
+Uruguay
+Denmark
+Panama
+
+Group G
+Brazil
+Croatia
+CostaRica
+Serbia
+
+Group H
+Germany
+Colombia
+Egypt
+Australia
+
+The Final Draw:
+Group A
+Russia
+Switzerland
+Tunisia
+SouthKorea
+
+Group B
+Portugal
+Croatia
+CostaRica
+SaudiArabia
+
+Group C
+Argentina
+England
+Senegal
+Serbia
+
+Group D
+Germany
+Uruguay
+Egypt
+Japan
+
+Group E
+France
+Spain
+Iran
+Morocco
+
+Group F
+Brazil
+Mexico
+Denmark
+Nigeria
+
+Group G
+Belgium
+Colombia
+Iceland
+Panama
+
+Group H
+Poland
+Peru
+Sweden
+Australia
+
+The Final Draw:
+Group A
+Russia
+Uruguay
+Iran
+Morocco
+
+Group B
+Portugal
+Spain
+Tunisia
+Australia
+
+Group C
+Germany
+Croatia
+CostaRica
+SaudiArabia
+
+Group D
+Poland
+Switzerland
+Senegal
+Panama
+
+Group E
+Brazil
+Mexico
+Sweden
+SouthKorea
+
+Group F
+Belgium
+Peru
+Denmark
+Nigeria
+
+Group G
+Argentina
+England
+Iceland
+Japan
+
+Group H
+France
+Colombia
+Egypt
+Serbia
+
+The Final Draw:
+Group A
+Russia
+Spain
+CostaRica
+Morocco
+
+Group B
+France
+Peru
+Denmark
+SaudiArabia
+
+Group C
+Belgium
+England
+Senegal
+Australia
+
+Group D
+Poland
+Croatia
+Tunisia
+Japan
+
+Group E
+Germany
+Uruguay
+Iceland
+Nigeria
+
+Group F
+Argentina
+Mexico
+Sweden
+SouthKorea
+
+Group G
+Brazil
+Switzerland
+Iran
+Panama
+
+Group H
+Portugal
+Colombia
+Egypt
+Serbia
+
+The Final Draw:
+Group A
+Russia
+England
+Tunisia
+Panama
+
+Group B
+Brazil
+Croatia
+Denmark
+Australia
+
+Group C
+Argentina
+Switzerland
+Egypt
+Serbia
+
+Group D
+Portugal
+Spain
+Iran
+Nigeria
+
+Group E
+Belgium
+Mexico
+Sweden
+SaudiArabia
+
+Group F
+Germany
+Uruguay
+CostaRica
+Morocco
+
+Group G
+Poland
+Colombia
+Senegal
+SouthKorea
+
+Group H
+France
+Peru
+Iceland
+Japan
+
+The Final Draw:
+Group A
+Russia
+Peru
+Denmark
+Australia
+
+Group B
+Belgium
+Croatia
+Tunisia
+Japan
+
+Group C
+Poland
+England
+CostaRica
+SaudiArabia
+
+Group D
+Argentina
+Spain
+Egypt
+Serbia
+
+Group E
+France
+Switzerland
+Senegal
+SouthKorea
+
+Group F
+Brazil
+Mexico
+Iran
+Nigeria
+
+Group G
+Portugal
+Uruguay
+Sweden
+Morocco
+
+Group H
+Germany
+Colombia
+Iceland
+Panama
+
+The Final Draw:
+Group A
+Russia
+Uruguay
+Senegal
+Serbia
+
+Group B
+Brazil
+Mexico
+Iran
+Morocco
+
+Group C
+Portugal
+Croatia
+Tunisia
+Australia
+
+Group D
+Germany
+England
+Egypt
+SaudiArabia
+
+Group E
+Poland
+Spain
+CostaRica
+Nigeria
+
+Group F
+Argentina
+Switzerland
+Iceland
+Japan
+
+Group G
+Belgium
+Peru
+Sweden
+Panama
+
+Group H
+France
+Colombia
+Denmark
+SouthKorea
+
+The Final Draw:
+Group A
+Russia
+Colombia
+CostaRica
+Nigeria
+
+Group B
+Brazil
+Spain
+Sweden
+Australia
+
+Group C
+France
+Mexico
+Egypt
+SouthKorea
+
+Group D
+Portugal
+Uruguay
+Senegal
+Serbia
+
+Group E
+Belgium
+England
+Tunisia
+Panama
+
+Group F
+Germany
+Croatia
+Iran
+Morocco
+
+Group G
+Poland
+Peru
+Denmark
+Japan
+
+Group H
+Argentina
+Switzerland
+Iceland
+SaudiArabia
+
+The Final Draw:
+Group A
+Russia
+Croatia
+CostaRica
+Australia
+
+Group B
+Belgium
+Colombia
+Senegal
+Panama
+
+Group C
+Argentina
+Switzerland
+Sweden
+Japan
+
+Group D
+Portugal
+Uruguay
+Iceland
+Morocco
+
+Group E
+Poland
+Spain
+Egypt
+SaudiArabia
+
+Group F
+France
+England
+Iran
+Nigeria
+
+Group G
+Brazil
+Mexico
+Denmark
+Serbia
+
+Group H
+Germany
+Peru
+Tunisia
+SouthKorea
+

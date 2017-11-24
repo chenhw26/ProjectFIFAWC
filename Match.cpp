@@ -77,6 +77,7 @@ pair<int, int> Match::match(Result &res) const{
 	}
 	printf("Result: %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
     res.matchResult(teamA, teamB, scoreOfA, scoreOfB);
+    res.scoreResult[teamA.group].push_back(pair<int, int>(scoreOfA, scoreOfB));
     return pair<int, int>(scoreOfA, scoreOfB);
 }
 

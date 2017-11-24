@@ -4,7 +4,12 @@
 #include <map>
 #include "Team.h"
 
+class Match;
+
 class Result{
+
+friend class Match;
+
 public:
 	// 球队数据
 	struct Statistic{
@@ -39,7 +44,7 @@ public:
 	void matchResult(const Team &teamA, const Team &teamB, int scoreOfA, int scoreOfB);
 
 	// 统计并打印小组赛结果, 将结果写在top16里
-	void groupStageResult(vector<Team> &top16);
+	void groupStageResult(vector<Team> &top16, const vector<Team> groups[8]);
 
 	// 生成所有队伍排名，按规则排
 	void finalResult(){}
@@ -52,10 +57,11 @@ public:
 private:
 	static bool cmp1(const pair<Team, Statistic> &A, const pair<Team, Statistic> &B);
 	static bool cmp2(const pair<Player, int> &A, const pair<Player, int> &B);
-	
-	void printResult(ostream &out);
 
-	map<Team, Statistic> Ranklist;                 // 所有球队总排名 
+	void printResult(ostream &out, const vector<Team> groups[8]);
+
+	map<Team, Statistic> Ranklist;                 // 所有球队总排名
+	vector<pair<int, int> > scoreResult[8];        // 小组赛比分
 	vector<pair<Team, Statistic> > groupResult[8]; // 小组赛结果统计
 	vector<pair<Player, int> > GoalScorers;        // 后一个int为进球数
 };

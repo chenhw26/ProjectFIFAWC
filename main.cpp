@@ -18,10 +18,6 @@ vector<Team> groups[8];                        // 小组赛分组
 vector<Team> top16;                            // 16强
 vector<string> venues;                        // 场馆
 
-bool cmp(const pair<string, int> &a, const pair<string, int> &b){
-	return a.second > b.second;
-}
-
 int main(){
 	srand(time(NULL));
 	GroupStage::readInVenue(venues);
@@ -34,7 +30,12 @@ int main(){
 	groupStage.schedueling(groups, venues);
 	Result res(groups);
 	groupStage.playing(res);
-	res.groupStageResult(top16);
+	// for(int i = 0; i < 8; ++i){
+	// 	for(int j = 0; j < 6; ++j)
+	// 		cout << res.scoreResult[i][j].first << ' ' << res.scoreResult[i][j].second << endl;
+	// 	cout << endl;
+	// }
+	res.groupStageResult(top16, groups);
 	// KonckoutStage konckoutStage(top16);
 	// konckoutStage.scheduling16(venues);
 	// konckoutStage.playing16(res);
