@@ -2,85 +2,29 @@
 using namespace std;
 
 void KonckoutStage:: reArrange(){
-	vector<Team> teamAs(8), teamBs(8);
-	for(int i = 0; i < 4; i++){
-		teamAs[i] = top16[4*i];
-		teamAs[4 + i] = top16[4*i+2];
-		teamBs[i] = top16[4*i+3];
-		teamBs[4+i] = top16[4*i+1];
-	}
-	for(int i = 0; i < 8; i++){
-		top16[2*i] = teamAs[i];
-		top16[2*i+1] = teamBs[i];
-	}
+	vector<Team> temp(Top16);
+	Top16[1] = temp[3];	Top16[8] = temp[11];
+	Top16[2] = temp[4];	Top16[10] = temp[12];
+	Top16[3] = temp[7]; Top16[11] = temp[15];
+	Top16[4] = temp[1]; Top16[12] = temp[9];
+	Top16[5] = temp[6]; Top16[13] = temp[14];
+	Top16[7] = temp[5]; Top16[15] = temp[13];
 }
 /*
   pre:schedule8.txt 里有八场比赛的日期和场馆，top16 里有16强队伍.
-  pos:把16个队伍安排到8场比赛中，并把安排结果重新放入 schedule8.txt，将比赛放入 Round16里（表格里的顺序，不是时间顺序）.
+  pos:把16个队伍安排到8场比赛中，并把安排结果重新放入 schedule8.txt，将比赛放入 Round16里(时间顺序).
 */
 void KonckoutStage:: scheduling16(const vector<string> &venues){
+	cout << "Schedule for round of 16:\n";
 	reArrange();
-	ofstream out("schedule8.txt");
 	for(int i = 0; i < 8; i++){
 		Match cur_match(top16[2 * i], top16[2 * i + 1]);
-		cur_match.date = i / 2 + 1;
-		cur_match.venue = venues[i];
 		Round16.push_back(cur_match);
-		showSchedule(out, "", Round16[i]);
-		// showSchedule(cout, "", Round16[i]);
 	}
-	out.close();
-}
-
-/*
-pre:schedule4.txt 里有四场比赛的比赛日期和场馆，top8 里有8强队伍.
-pos:把8个队伍安排到4场比赛中，并把安排结果重新放入 schedule4.txt，将比赛放入 Quarter_finals里.
- */
-void KonckoutStage:: schedulingQuarter(const vector<string> &venues){
-	ofstream out("schedule4.txt");
-	for(int i = 0; i < 4; i++){
-		Match cur_match(top8[2 * i], top8[2 * i + 1]);
-		cur_match.date = i / 2 + 7;
-		cur_match.venue = venues[i + 8];
-		Quarter_finals.push_back(cur_match);
-		showSchedule(out, "", Quarter_finals[i]);
-		// showSchedule(cout, "", Quarter_finals[i]);
-	}
-	out.close();
-}
-
-/*
-pre:schedule2.txt 里有2场比赛的比赛日期和场馆，top4 里有4强队伍.
-pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule2.txt，将比赛放入 Semi_finals里.
- */
-void KonckoutStage:: schedulingSemi(const vector<string> &venues){
-	ofstream out("schedule2.txt");
-	for(int i = 0; i < 2; i++){
-		Match cur_match(top4[2 * i], top4[2 * i + 1]);
-		cur_match.date = i + 11;
-		cur_match.venue = venues[1 - i];
-		Semi_finals.push_back(cur_match);
-		showSchedule(out, "", Semi_finals[i]);
-		// showSchedule(cout, "", Semi_finals[i]);
-	}
-	out.close();
-}
-
-/*
-pre:schedule1.txt 里有2场比赛的比赛日期和场馆，FinalTeams 里有4个队伍.
-pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule1.txt，将比赛放入 Finals里（决赛在前，季军赛在后）.
- */
-void KonckoutStage:: schedulingFinal(const vector<string> &venues){
-	ofstream out("schedule1.txt");
-	string message[2] = {"Final\n", "Third\n"};
-	for(int i = 0; i < 2; i++){
-		Match cur_match(FinalTeams[2 * i], FinalTeams[2 * i + 1]);
-		cur_match.date = 16 - i;
-		cur_match.venue = venues[i];
-		Final.push_back(cur_match);
-		showSchedule(out, message[i], Final[i]);
-		// showSchedule(cout, message[i], Final[i]);
-	}
+	readSchedule("data/schedule8.txt", Round16);//读入时间和场馆信息.
+	ofstream out("data/schedule8.txt");
+	writeSchedule(out , Round16);
+	writeSchedule(cout , Round16);
 	out.close();
 }
 
@@ -89,115 +33,263 @@ pre:Round16 里有非时间顺序的8场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result8.txt 里，把晋级队伍保存到top8.
  */
 void KonckoutStage::playing16(Result& result){
-	ofstream out("Result8.txt");
-	cout << "\n\nRound of 16\n";
-	pair<int, int> scores, penalty;
-	for(int i = 0; i < Round16.size(); i++){
-		scores = Round16[i].match(result);
-		if(scores.first == scores.second){
-			penalty = Round16[i].penalties();
-			if(penalty.first > penalty.second)
-				top8.push_back(Round16[i].teamA);
-			else top8.push_back(Round16[i].teamB);
-		}
-		else if(scores.first > scores.second)
-			top8.push_back(Round16[i].teamA);
-		else top8.push_back(Round16[i].teamB);
-		showMatch(out, "", Round16[i].teamA.country, Round16[i].teamB.country, scores, penalty);
+	pair<int, int> score, penalty;
+	for(int i = 0; i < 2w.size(); i++){
+		pair<Team, Team> rank = play(Round16[i], score, penalty);
+		top8.push_back(rank.first);
+		AllScore.push_back(score);
+		AllPenalty.push_back(penalty);
 	}
+	swap(top8[2], top8[4]);
+	swap(top8[3], top8[5]);
+	swap(AllScore[9], AllScore[10]);
+	swap(AllPenalty[9], AllPenalty[10]);
+	for(int i = 0; i < 4; i++)
+		swap(top16[i + 4], top[i + 8]);
+	for(int i = 0; i < 2; i++){
+		swap(AllScore[i+2], AllScore[i+4]);
+		swap(AllPenalty[i+2], AllPenalty[i+4]);
+	}
+	cout << "Qualified for quarter final:\n";
+	for(int i = 0; i < top8.size(); i++)
+		cout << top8[i].country << endl;
+	cout << endl;
+}
+
+/*
+pre:schedule4.txt 里有四场比赛的比赛日期和场馆，top8 里有8强队伍.
+pos:把8个队伍安排到4场比赛中，并把安排结果重新放入 schedule4.txt，将比赛放入 Quarter_finals里.
+ */
+void KonckoutStage:: schedulingQuarter(const vector<string> &venues){
+	cout << "Schedule for quarter finals:\n";
+	for(int i = 0; i < 4; i++){
+		Match cur_match(top8[2 * i], top8[2 * i + 1]);
+	}
+	readSchedule("data/schedule4.txt", Quarter_finals);
+	ofstream out("data/schedule4.txt");
+	writeSchedule(out , Quarter_finals);
+	writeSchedule(cout , Quarter_finals);
 	out.close();
 }
 
 /*
 pre:Quarter_finals 里4场比赛.
-pos:按时间顺序开始比赛，并把结果保存到result4.txt 里，把晋级队伍保存到top4.
+pos:按时间顺序开始比赛，并把结果保存到result4.txt(队伍，比分) 里，把晋级队伍保存到top4.
  */
 void KonckoutStage::playingQuarter(Result& result){
-	ofstream out("Result4.txt");
-	cout << "\n\nQuarter finals\n";
-	pair<int, int> scores, penalty = {0, 0};
+	pair<int, int> score, penalty;
 	for(int i = 0; i < Quarter_finals.size(); i++){
-		scores = Quarter_finals[i].match(result);
-		if(scores.first == scores.second){
-			penalty = Quarter_finals[i].penalties();
-			if(penalty.first > penalty.second)
-				top4.push_back(Quarter_finals[i].teamA);
-			else top4.push_back(Quarter_finals[i].teamB);
-		}
-		else if(scores.first > scores.second)
-			top4.push_back(Quarter_finals[i].teamA);
-		else top4.push_back(Quarter_finals[i].teamB);
-		showMatch(out, "", Quarter_finals[i].teamA.country, Quarter_finals[i].teamB.country, scores, penalty);
+		pair<Team, Team> rank = play(Quarter_finals[i], score, penalty);
+		top4.push_back(rank.first);
+		AllScore.push_back(score);
+		AllPenalty.push_back(penalty);
 	}
+	cout << "Qualified for semi finals:\n";
+	for(int i = 0; i < top4.size(); i++)
+		cout << top4.country << endl;
+	cout << endl;
+}
+
+/*
+pre:schedule2.txt 里有2场比赛的比赛日期和场馆，top4 里有4强队伍.
+pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule2.txt，将比赛放入 Semi_finals里.
+ */
+void KonckoutStage:: schedulingSemi(const vector<string> &venues){
+	cout << "Schedule for semi finals:\n";
+	for(int i = 0; i < 2; i++){
+		Match cur_match(top4[2 * i], top4[2 * i + 1]);
+		Semi_finals.push_back();
+	}
+	readSchedule("data/schedule2.txt", Semi_finals);
+	ofstream out("data/schedule2.txt");
+	writeSchedule(out, Semi_finals);
+	writeSchedule(cout, Semi_finals);
 	out.close();
 }
+
 
 /*
 pre:Semi_finals 里有的2场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result2.txt 里，四个队伍按结果重排，放到FinalTeams.
  */
 void KonckoutStage::playingSemi(Result& result){
-	ofstream out("Result2.txt");
-	cout << "\n\nSemi finals\n";
-	pair<int, int> scores, penalty = {0, 0};
+	FinalTeams.resize(4);
+	pair<int, int> score, penalty;
 	for(int i = 0; i < Semi_finals.size(); i++){
-		scores = Semi_finals[i].match(result);
-		if(scores.first == scores.second){
-			penalty = Semi_finals[i].penalties();
-			if(penalty.first > penalty.second){
-				FinalTeams[i] = Semi_finals[i].teamA;
-				FinalTeams[i + 2] = Semi_finals[i].teamB;
-			}
-			else {
-				FinalTeams[i] = Semi_finals[i].teamB;
-				FinalTeams[i + 2] = Semi_finals[i].teamA;
-			}
-		}
-		else if(scores.first > scores.second)
-			{
-				FinalTeams[i] = Semi_finals[i].teamA;
-				FinalTeams[i + 2] = Semi_finals[i].teamB;
-			}
-		else {
-				FinalTeams[i] = Semi_finals[i].teamB;
-				FinalTeams[i + 2] = Semi_finals[i].teamA;
-			}
-		showMatch(out, "", Semi_finals[i].teamA.country, Semi_finals[i].teamB.country, scores, penalty);
+		pair<Team, Team> rank = play(Semi_finals[i], score, penalty);
+		FinalTeams[i+2] = rank.first;
+		FinalTeams[i] = rank.second; //季军赛先开始.
+		AllScore.push_back(score);
+		AllPenalty.push_back(penalty);
 	}
+	cout << "Qualified for final:\n";
+	cout << FinalTeams[0] << endl;
+	cout << FinalTeams[1] << endl << endl;
+	cout << "Qualified for third:\n";
+	cout << FinalTeams[2] << endl;
+	cout << FinalTeams[3] << endl << endl;
+}
+
+/*
+pre:schedule1.txt 里有2场比赛的比赛日期和场馆，FinalTeams 里有4个队伍.
+pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule1.txt，将比赛放入 Finals里（决赛在前，季军赛在后）.
+ */
+void KonckoutStage:: schedulingFinal(const vector<string> &venues){
+	cout << "Schedule for final and third:\n";
+	for(int i = 0; i < 2; i++){
+		Match cur_match(FinalTeams[2*i], FinalTeams[2*i+1]);
+		Final.push_back(cur_match);
+	}
+	readSchedule("data/schedule1.txt", Final);
+	ofstream out("data/schedule1.txt");
+	writeSchedule(out, Final);
+	writeSchedule(cout, Final);
 	out.close();
 }
 
 /*
 pre:Final 里有2场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result1.txt 里，把四个队伍重排放到rank.
- */
+*/
 void KonckoutStage:: playingFinal(Result& result){
-	ofstream out("Result1.txt");
-	pair<int, int> scores, penalty = {0, 0};
-	string message[2] = {"\n\nThird\n", "\n\nFinal\n"};
-	for(int i = 1; i >= 0; i--){
-		if(i == 1) cout << "Third\n";
-		else cout << "Final\n";
-		scores = Final[i].match(result);
-		if(scores.first == scores.second){
-			penalty = Final[i].penalties();
-		}
-		showMatch(out, message[i], Final[i].teamA.country, Final[i].teamB.country, scores, penalty);
+	Rank.resize(4);
+	pair<int, int> score, penalty;
+	for(int i = 0; i < Semi_finals.size(); i++){
+		pair<Team, Team> rank = play(Semi_finals[i], score, penalty);
+		Rank[2*i] = rank.first;
+		Rank[2*i+1] = rank.second;
+		AllScore.push_back(score);
+		AllPenalty.push_back(penalty);
 	}
-	out.close();
 }
 
-void KonckoutStage::showMatch(ostream& out, const string message, const string nameA, 
-	const string nameB, const pair<int, int> &score, const pair<int, int> &penalty)const {
-	out << endl << message << nameA << ' ' << score.first;
-	if(penalty != pair<int, int>(0, 0)) out << '(' << penalty.first << ')';
-	out << " VS " << score.second;
-	if(penalty != pair<int, int>(0, 0)) out << '(' << penalty.second << ')';
-	out << ' ' << nameB;
+void KonckoutStage:: showBlacket(const vector<string>& teamA, const vector<string>& teamB, 
+					const vector<pair<int, int> >& AllScore, const vector<pair<int, int> >& AllPenalty){
+	vector<string> teamA, teamB;
+	for(int i = 0; i < 8; i++){
+		teamA[i] = top16[2*i].country;
+		teamB[i] = top16[2*i+1].country;
+	}
+	for(int i = 0; i < 4; i++){
+		teamA[i+8] = top8[2*i].country;
+		teamB[i+8] = top8[2*i+1].country;
+	}
+	for(int i = 0; i < 2; i++){
+		teamA[i+12] = top4[2*i].country;
+		teamB[i+12] = top4[2*i+1].country;
+	}
+	for(int i = 0; i < 2; i++){
+		teamA[i+14] = FinalTeams[2*i].country;
+		teamB[i+14] = FinalTeams[2*i+1].country;
+	}
+	string line[30];
+	for(int i = 0; i < 15; i++){
+		if((i+1)%2 == 1){
+			appendScore(line[2 * i], line[2 * i + 1], teamA[i/2], teamB[i/2], AllScore[i/2], AllPenalty[i/2]);
+		}
+		else {
+			line[2 * i].append(20,' ');
+			line[2 * i + 1].append(20, ' ');
+			if((i+1) % 4 == 2){
+				appendScore(line[2 * i], line[2 * i + 1], teamA[i/4+8], teamB[i/4+8], AllScore[i/4+8], AllPenalty[i/4+8]);
+			}
+			else{
+				line[2 * i].append(20,' ');
+				line[2 * i + 1].append(20, ' ');
+				if((i+1) % 8 == 4){
+					appendScore(line[2 * i], line[2 * i + 1], teamA[i/8+12], teamB[i/8+12], AllScore[i/8+12], AllPenalty[i/8+12]);
+				}
+				else{
+					line[2 * i].append(20,' ');
+					line[2 * i + 1].append(20, ' ');
+					appendScore(line[2 * i], line[2 * i + 1], teamA[15], teamB[15], AllScore[15], AllPenalty[15]);
+				}
+			}
+		}
+	}
+	appendScore(line[22], line[23], teamA[14], teamB[14], AllScore[14], AllPenalty[14]);
+	for(int i = 0; i < 30; i++) cout << line[i] << endl;
 }
 
-void KonckoutStage:: showSchedule(ostream& out, const string message, const Match &match)const{
-	out << endl << message;
-	out << "July " << match.date << " at " << match.venue << endl;
-	out << match.teamA.country << " VS " << match.teamB.country << endl;
+/*从文件中读入比赛时间和场地*/
+void KonckoutStage:: readSchedule(const char* fileName, vector<Match>& matches){
+	ifstream in(fileName);
+	int count = 0, date;
+	string month;
+	while(in >> month >> date){
+		in.get();
+		string temp;
+		while(1){
+			getline(in, temp);
+			if(temp == "\n") break;
+			size_t pos2 = temp.find(" , ");
+			matches[count].venue = temp.substr(pos2 + 2);
+			matches[count].date = date;
+			count++;
+		}
+	}
+	in.close();
+}
+
+/*把比赛双方队伍名称写入文件*/
+void KonckoutStage:: writeSchedule(ostream out, vector<Match>& matches){
+	for(int i = 0; i < matches.size(); i++){
+		if(i == 0 || matches[i].date != matches[i - 1].date){
+			if(i) cout << endl;
+			if(matches[i].date == 30) out << "June " << matches[i].date << endl;
+			else out << "July " <<  matches[i].date << endl;
+		}
+		out << matches[i].teamA.country << " vs " << matches[i].teamB.country << " , " << matches[i].venue << endl;
+	}
+}
+
+pair<Team, Team> KonckoutStage::play(const match& match, pair<int, int>& score, pair<int, int>& penalty)const {
+	score = match.match();
+	if(score.first == score.second){
+		penalty = match.penalties();
+		if(penalty.first > penalty.second) return pair<Team, Team> (match.teamA, match.teamB);
+		else return pair<Team, Team> (match.teamB, match.teamA);
+	}
+	else if(score.first > score.second) return pair<Team, Team> (match.teamA, match.teamB);
+	else return pair<Team, Team> (match.teamB, match.teamA);
+}
+
+//从 top16, top7, top4, FinalTeams, Allscore, Allpenalty 中获取信息，打印晋级图.
+void KonckoutStage:: appendScore(){
+	size_t size = a.size();
+	size += 20;
+	a += teamA;
+	b += teamB;
+	stringstream ss;
+	if(score.first == score.second){
+		string temp;
+		ss << score.first;
+		ss >> temp;
+		ss.clear();
+		a += " " + temp;
+		ss << penalty.first;
+		ss >> temp;
+		ss.clear();
+		a += " (" + temp + ")";
+		ss << score.second;
+		ss >> temp;
+		ss.clear();
+		b += " " + temp;
+		ss << penalty.second;
+		ss >> temp;
+		ss.clear();
+		b += " (" + temp + ")";
+	}
+	else{
+		string temp;
+		ss << score.first;
+		ss >> temp;
+		a += " " + temp;
+		ss.clear();
+		ss << score.second;
+		ss >> temp;
+		b += " " + temp;
+	}
+	a.resize(size);
+	b.resize(size);
 }
