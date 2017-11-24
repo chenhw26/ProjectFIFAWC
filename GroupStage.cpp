@@ -20,22 +20,33 @@ void GroupStage::readInVenue(vector<string> &venues){
 }
 
 void GroupStage::schedueling(const vector<Team> groups[8], const vector<string> &venues){
-	queue<Match> allMatches[8];
+	vector<pair<int, string> > sche(48);
+	ifstream fin("data/GroupStageSchedule.txt");
+	for(int i = 0; i < 48; ++i){
+		fin >> sche[i].first;
+		fin.ignore(999, '\n');
+		getline(fin, sche[i].second, '\r');
+	}
+	queue<Match> allMatches;
 	for(int i = 0; i < 8; ++i){
-		allMatches[i].push(Match(groups[i][0], groups[i][1]));
-		allMatches[i].push(Match(groups[i][2], groups[i][3]));
-		allMatches[i].push(Match(groups[i][0], groups[i][2]));
-		allMatches[i].push(Match(groups[i][3], groups[i][1]));
-		allMatches[i].push(Match(groups[i][3], groups[i][0]));
-		allMatches[i].push(Match(groups[i][1], groups[i][2]));
+		allMatches.push(Match(groups[i][0], groups[i][1]));
+		allMatches.push(Match(groups[i][2], groups[i][3]));
+	}
+	for(int i = 0; i < 8; ++i){
+		allMatches.push(Match(groups[i][0], groups[i][2]));
+		allMatches.push(Match(groups[i][3], groups[i][1]));
+	}
+	for(int i = 0; i < 8; ++i){
+		allMatches.push(Match(groups[i][3], groups[i][0]));
+		allMatches.push(Match(groups[i][1], groups[i][2]));
 	}
 	for(int i = 0; i < 48; ++i){
-		Match curMatch(allMatches[i % 8].front());
-		allMatches[i % 8].pop();
-		curMatch.venue = venues[i % venues.size()];
-		curMatch.date = i / 4;
-		matchesByDate[i / 4].push_back(curMatch);
-		matchesBySquads[i % 8].push_back(curMatch);
+		Match curMatch(allMatches.front());
+		allMatches.pop();
+		curMatch.venue = sche[i].second;
+		curMatch.date = sche[i].first;
+		matchesByDate[sche[i].first - 14].push_back(curMatch);
+		matchesBySquads[curMatch.teamA.group].push_back(curMatch);
 	}
 	printScheduel(cout);
 	ofstream fout("data/scheduel16.txt");
@@ -49,12 +60,12 @@ void GroupStage::printScheduel(ostream &out) const{
 		out << "Group " << char('A'+i) << endl;
 		for(const Match &m: matchesBySquads[i])
 			out << ' ' << m.teamA.country << " vs " << m.teamB.country << " , "
-		         << m.venue << "  June " << m.date + 19 << endl;
+		         << m.venue << "  June " << m.date << endl;
 		out << endl; 
 	}
 	out << endl << "Matches by date" << endl;
-	for(int i = 0; i < 12; ++i){
-		out << "June " << i + 19 << endl;
+	for(int i = 0; i < 15; ++i){
+		out << "June " << i + 14 << endl;
 		for(const Match &m: matchesByDate[i])
 			out << ' ' << m.teamA.country << " vs " << m.teamB.country << " , " << m.venue << endl;
 		out << endl;
@@ -62,9 +73,9 @@ void GroupStage::printScheduel(ostream &out) const{
 }
 
 void GroupStage::playing(Result &res) const{
-	for(int i = 0; i < 12; ++i){
+	for(int i = 0; i < 15; ++i){
 		for(const Match &m: matchesByDate[i]){
-			cout << m.venue << "  June " << m.date + 19 << endl;
+			cout << m.venue << "  June " << m.date << endl;
 			m.match(res);
 		}
 	}

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <cstdio>
 #include <vector>
 #include <string>
@@ -17,28 +18,30 @@ vector<Team> groups[8];                        // 小组赛分组
 vector<Team> top16;                            // 16强
 vector<string> venues;                        // 场馆
 
+bool cmp(const pair<string, int> &a, const pair<string, int> &b){
+	return a.second > b.second;
+}
+
 int main(){
 	srand(time(NULL));
+	GroupStage::readInVenue(venues);
 	Team::readin(allTeams);
 	Draw draw;
-	draw.putInPots(allTeams).showPots().storePots();
+	draw.putInPots(allTeams);
 	draw.grouping(groups);
 	Draw::showDrawResult(groups); Draw::storeDrawResult(groups);
 	GroupStage groupStage;
-	GroupStage::readInVenue(venues);
 	groupStage.schedueling(groups, venues);
 	Result res(groups);
 	groupStage.playing(res);
 	res.groupStageResult(top16);
-	KonckoutStage konckoutStage(top16);
-	konckoutStage.scheduling16(venues);
-	konckoutStage.playing16(res);
-	konckoutStage.schedulingQuarter(venues);
-	konckoutStage.playingQuarter(res);
-	konckoutStage.schedulingSemi(venues);
-	konckoutStage.playingSemi(res);
-	konckoutStage.schedulingFinal(venues);
-	konckoutStage.playingFinal(res);
-	res.printGoalScorers(cout);
+	// KonckoutStage konckoutStage(top16);
+	// konckoutStage.scheduling16(venues);
+	// konckoutStage.playing16(res);
+	// konckoutStage.schedulingQuarter(venues);
+	// konckoutStage.playingQuarter(res);
+	// konckoutStage.schedulingSemi(venues);
+	// konckoutStage.playingSemi(res);
+	// konckoutStage.schedulingFinal(venues);
 	return 0;
 }

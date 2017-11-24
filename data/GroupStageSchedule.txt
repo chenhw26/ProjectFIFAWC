@@ -1,0 +1,96 @@
+14 
+Luzhniki Stadium, Moscow
+15
+Central Stadium, Yekaterinburg
+15
+Fisht Olympic Stadium, Sochi
+15
+Krestovsky Stadium, Saint Petersburg
+16
+Kazan Arena, Kazan
+16
+Mordovia Arena, Saransk
+16
+Otkrytiye Arena, Moscow
+16
+Kaliningrad Stadium, Kaliningrad
+17
+Rostov Arena, Rostov-on-Don
+17
+Cosmos Arena, Samara
+17
+Luzhniki Stadium, Moscow
+18
+Nizhny Novgorod Stadium, Nizhny Novgorod
+18
+Fisht Olympic Stadium, Sochi
+18
+Volgograd Arena, Volgograd
+19
+Otkrytiye Arena, Moscow
+19
+Mordovia Arena, Saransk
+19
+Krestovsky Stadium, Saint Petersburg
+20
+Rostov Arena, Rostov-on-Don
+20
+Luzhniki Stadium, Moscow
+20
+Kazan Arena, Kazan
+21
+Central Stadium, Yekaterinburg
+21
+Cosmos Arena, Samara
+21
+Nizhny Novgorod Stadium, Nizhny Novgorod
+22
+Volgograd Arena, Volgograd
+22
+Krestovsky Stadium, Saint Petersburg
+22
+Kaliningrad Stadium, Kaliningrad
+23
+Fisht Olympic Stadium, Sochi
+23
+Rostov Arena, Rostov-on-Don
+23
+Otkrytiye Arena, Moscow
+24
+Nizhny Novgorod Stadium, Nizhny Novgorod
+24
+Kazan Arena, Kazan
+24
+Central Stadium, Yekaterinburg
+25
+Cosmos Arena, Samara
+25
+Volgograd Arena, Volgograd
+25
+Mordovia Arena, Saransk
+25
+Kaliningrad Stadium, Kaliningrad
+26
+Luzhniki Stadium, Moscow
+26
+Fisht Olympic Stadium, Sochi
+26
+Krestovsky Stadium, Saint Petersburg
+26
+Rostov Arena, Rostov-on-Don
+27
+Otkrytiye Arena, Moscow
+27
+Nizhny Novgorod Stadium, Nizhny Novgorod
+27
+Kazan Arena, Kazan
+27
+Central Stadium, Yekaterinburg
+28
+Kaliningrad Stadium, Kaliningrad
+28
+Mordovia Arena, Saransk
+28
+Volgograd Arena, Volgograd
+28
+Cosmos Arena, Samara

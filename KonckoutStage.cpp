@@ -145,8 +145,8 @@ void KonckoutStage:: playingFinal(Result& result){
 	pair<int, int> scores, penalty = {0, 0};
 	string message[2] = {"\n\nThird\n", "\n\nFinal\n"};
 	for(int i = 1; i >= 0; i--){
-		if(i == 1) cout << "Final\n";
-		else cout << "Third\n";
+		if(i == 1) cout << "Third\n";
+		else cout << "Final\n";
 		scores = Final[i].match(result);
 		if(scores.first == scores.second){
 			penalty = Final[i].penalties();

@@ -88,3 +88,150 @@ Colombia
 Iceland
 SouthKorea
 
+The Final Draw:
+Group A
+Russia
+Switzerland
+Iran
+Nigeria
+
+Group B
+Brazil
+Croatia
+Iceland
+Australia
+
+Group C
+Germany
+England
+Senegal
+Japan
+
+Group D
+France
+Uruguay
+Sweden
+SaudiArabia
+
+Group E
+Argentina
+Spain
+CostaRica
+SouthKorea
+
+Group F
+Belgium
+Mexico
+Egypt
+Serbia
+
+Group G
+Portugal
+Peru
+Tunisia
+Panama
+
+Group H
+Poland
+Colombia
+Denmark
+Morocco
+
+The Final Draw:
+Group A
+Russia
+Mexico
+Egypt
+SaudiArabia
+
+Group B
+France
+England
+CostaRica
+SouthKorea
+
+Group C
+Brazil
+Switzerland
+Iceland
+Nigeria
+
+Group D
+Portugal
+Colombia
+Iran
+Serbia
+
+Group E
+Poland
+Spain
+Tunisia
+Australia
+
+Group F
+Belgium
+Peru
+Sweden
+Panama
+
+Group G
+Argentina
+Croatia
+Denmark
+Morocco
+
+Group H
+Germany
+Uruguay
+Senegal
+Japan
+
+The Final Draw:
+Group A
+Russia
+Spain
+Iran
+Nigeria
+
+Group B
+Belgium
+Peru
+Sweden
+Morocco
+
+Group C
+Brazil
+Croatia
+Iceland
+Australia
+
+Group D
+Poland
+England
+CostaRica
+Japan
+
+Group E
+Portugal
+Uruguay
+Senegal
+Serbia
+
+Group F
+France
+Colombia
+Denmark
+Panama
+
+Group G
+Germany
+Switzerland
+Egypt
+SouthKorea
+
+Group H
+Argentina
+Mexico
+Tunisia
+SaudiArabia
+
