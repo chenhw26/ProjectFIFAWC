@@ -53,14 +53,17 @@ void Result::printResult(ostream &out, const vector<Team> groups[8]){
 	}
 }
 
-void Result::groupStageResult(vector<Team> &top16, const vector<Team> groups[8]){
+void Result::groupStageResult(vector<Team> &top16, const vector<Team> groups[8], vector<Team> &rank16_32){
 	for(const auto &p: Ranklist)
 		groupResult[p.first.group].push_back(p);
 	for(int i = 0; i < 8; ++i)
 		sort(groupResult[i].begin(), groupResult[i].end(), cmp1);
-	for(int i = 0; i < 8; ++i)
+	for(int i = 0; i < 8; ++i){
 		for(int j = 0; j < 2; ++j)
 			top16.push_back(groupResult[i][j].first);
+		for(int j = 2; j < 4; ++j)
+			rank16_32.push_back(groupResult[i][j].first);
+	}
 	printResult(cout, groups);
 	ofstream fout("data/Result16.txt");
 	printResult(fout, groups);
@@ -91,4 +94,36 @@ void Result::printGoalScorers(ostream &out){
 		}
 		out << ' ' << p.first.name << " , " << p.first.pos << " , " << p.first.team << endl;
 	}
+}
+
+void Result::finalResult(const vector<Team> &rank16_32, const vector<Team> &rank8_16, 
+				 const vector<Team> &rank4_8, const vector<Team> &rank1_4){
+	FinalResult.resize(32);
+	for(int i = 0; i < 4; ++i)
+		FinalResult[i] = pair<Team, Statistic>(rank1_4[i], Ranklist[rank1_4[i]]);
+	for(int i = 4; i < 8; ++i)
+		FinalResult[i] = pair<Team, Statistic>(rank4_8[i - 4], Ranklist[rank4_8[i - 4]]);
+	for(int i = 8; i < 16; ++i)
+		FinalResult[i] = pair<Team, Statistic>(rank8_16[i - 8], Ranklist[rank8_16[i - 8]]);
+	for(int i = 16; i < 32; ++i)
+		FinalResult[i] = pair<Team, Statistic>(rank16_32[i - 16], Ranklist[rank16_32[i - 16]]);
+	sort(FinalResult.begin() + 4, FinalResult.begin() + 8, cmp1);
+	sort(FinalResult.begin() + 8, FinalResult.begin() + 16, cmp1);
+	sort(FinalResult.begin() + 16, FinalResult.begin() + 32, cmp1);
+}
+
+void Result::printFinalRanklist(ostream &out){
+	out << "Final Ranklist" << endl << endl;
+	out << "Rank Team          W   D   L   GF  GA  GD  Pts\n";
+	for(int i = 0; i < 32; ++i){
+		out << right << setw(4) << i + 1 << '.'
+			<< left << setw(14) << FinalResult[i].first.country
+		    << left << setw(4) << FinalResult[i].second.W
+		    << left << setw(4) << FinalResult[i].second.D
+		    << left << setw(4) << FinalResult[i].second.L
+		    << left << setw(4) << FinalResult[i].second.GF
+		    << left << setw(4) << FinalResult[i].second.GA
+		    << left << setw(4) << FinalResult[i].second.GD
+		    << left << setw(4) << FinalResult[i].second.Pts << endl;
+	}	
 }

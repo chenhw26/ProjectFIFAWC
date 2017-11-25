@@ -44,15 +44,18 @@ public:
 	void matchResult(const Team &teamA, const Team &teamB, int scoreOfA, int scoreOfB);
 
 	// 统计并打印小组赛结果, 将结果写在top16里
-	void groupStageResult(vector<Team> &top16, const vector<Team> groups[8]);
+	void groupStageResult(vector<Team> &top16, const vector<Team> groups[8], vector<Team> &rank16_32);
 
 	// 生成所有队伍排名，按规则排
-	void finalResult(){}
+	void finalResult(const vector<Team> &rank16_32, const vector<Team> &rank8_16, 
+				     const vector<Team> &rank4_8, const vector<Team> &rank1_4);
 
 	// 该球员获得一个进球
 	void goal(const Player &ply);
 
 	void printGoalScorers(ostream &out);
+
+	void printFinalRanklist(ostream &out);
 
 private:
 	static bool cmp1(const pair<Team, Statistic> &A, const pair<Team, Statistic> &B);
@@ -60,9 +63,10 @@ private:
 
 	void printResult(ostream &out, const vector<Team> groups[8]);
 
-	map<Team, Statistic> Ranklist;                 // 所有球队总排名
+	map<Team, Statistic> Ranklist;                 // 所有球队数据统计
 	vector<pair<int, int> > scoreResult[8];        // 小组赛比分
 	vector<pair<Team, Statistic> > groupResult[8]; // 小组赛结果统计
+	vector<pair<Team, Statistic> > FinalResult;
 	vector<pair<Player, int> > GoalScorers;        // 后一个int为进球数
 };
 

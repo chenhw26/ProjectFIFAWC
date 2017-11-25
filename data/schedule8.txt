@@ -1,12 +1,16 @@
-30
-Fisht Olympic Stadium, Sochi
-Kazan Arena, Kazan
-1
-Luzhniki Stadium, Moscow
-Nizhny Novgorod Stadium, Nizhny Novgorod
-2
-Cosmos Arena, Samara
-Rostov Arena, Rostov-on-Don
-3
-Krestovsky Stadium, Saint Petersburg
-Otkrytiye Arena, Moscow
+June 30
+Uruguay vs Colombia, Kazan Arena, Kazan
+Poland vs Iran, Fisht Olympic Stadium, Sochi
+
+July 1
+Portugal vs Iceland, Luzhniki Stadium, Moscow
+Brazil vs Switzerland, Nizhny Novgorod Stadium, Nizhny Novgorod
+
+July 2
+Mexico vs Serbia, Cosmos Arena, Samara
+Belgium vs Spain, Rostov Arena, Rostov-on-Don
+
+July 3
+Argentina vs France, Krestovsky Stadium, Saint Petersburg
+Germany vs Peru, Otkrytiye Arena, Moscow
+

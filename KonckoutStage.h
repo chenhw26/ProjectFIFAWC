@@ -17,19 +17,19 @@ friend class Result;
 
 public:
 	//构造函数，传入十六强队伍
-	KonckoutStage(const vector<Team> &_top16):top16(_top16) { }
+	KonckoutStage(const vector<Team> &_top16):top16(_top16) {}
 
 	//给16强队伍安排8常比赛，从 7 月 1 日开始，每天两场比赛
 	void scheduling16(const vector<string> &venues);
 	
 	//依次进行16强比赛，胜利的队伍晋级8强.
-	void playing16(Result& result);
+	void playing16(Result& result, vector<Team> &rank8_16);
 	
 	// 7 月 7 日开始，每天两场比赛.
 	void schedulingQuarter(const vector<string> &venues);
 	
 	//依次进行4场四分一决赛，胜利队伍晋级4强.
-	void playingQuarter(Result& result);	
+	void playingQuarter(Result& result, vector<Team> &rank4_8);	
 	
 	//7月11日开始，每天1场比赛.
 	void schedulingSemi(const vector<string> &venues);
@@ -41,31 +41,30 @@ public:
 	void schedulingFinal(const vector<string> &venues);
 
 	//决定冠军、亚军、季军.
-	void playingFinal(Result& result);
+	void playingFinal(Result& result, vector<Team> &rank1_4);
 
-	//打印分区晋级图.
-	void showBlacket();
+	void printBracket(ostream &out, int period);
 
 private:
 	//按照比赛顺序重排列.
 	void reArrange();
 
 	//从文件中读取时间和场地.
-	void readSchedule(const char* fileName, vector<Match>& matches);
+	void readSchedule(const char* fileName, vector<Match> matches[], int day, int numofmtc);
 
 	//写入每场比赛的队伍.
-	void writeSchedule(ostream &out, vector<Match>& matches);
+	void writeSchedule(ostream &out, vector<Match> matches[], int day);
 
 	//执行一场比赛，记下胜出队伍，双方得分，点球数.
-	pair<Team, Team> play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res) const;
+	bool play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res) const;
 
-	//用于帮助显示晋级图.
-	void appendScore(string& a, string& b, const string& teamA, const string& teamB, 
-						const pair<int, int>& score, const pair<int, int>& penalty);
 
 	vector<Team> top16, top8, top4, FinalTeams, Rank;
-	vector<Match> Round16, Quarter_finals, Semi_finals, Final;
-	vector<pair<int, int> > AllScore, AllPenalty;
+	vector<Match> Round16[4], Quarter_finals[2], Semi_finals[2], Final[2];
+	vector<pair<int, int> > AllScoreOfRound16, AllPenaltyOfRound16;
+	vector<pair<int, int> > AllScoreOfQutFin, AllPenaltyOfQutFin;
+	vector<pair<int, int> > AllScoreOfSemiFin, AllPenaltyOfSemiFin;
+	vector<pair<int, int> > AllScoreOfFin, AllPenaltyOfFin;
 };
 
 #endif

@@ -1,64 +1,64 @@
 Final Result for Group A                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Russia 0:2 Spain
-Spain         3   0   0   10  0   10  9                    CostaRica 3:0 SaudiArabia
-CostaRica     2   0   1   8   4   4   6                    Russia 1:5 CostaRica
-Russia        1   0   2   3   7   -4  3                    SaudiArabia 0:5 Spain
-SaudiArabia   0   0   3   0   10  -10 0                    SaudiArabia 0:2 Russia
-                                                           Spain 3:0 CostaRica
+Team          W   D   L   GF  GA  GD  Pts                  Russia 0:4 Uruguay
+Uruguay       3   0   0   11  3   8   9                    Iceland 3:0 Japan
+Iceland       2   0   1   11  4   7   6                    Russia 0:6 Iceland
+Japan         1   0   2   4   6   -2  3                    Japan 1:3 Uruguay
+Russia        0   0   3   0   13  -13 0                    Japan 3:0 Russia
+                                                           Uruguay 4:2 Iceland
 
 Final Result for Group B                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Germany 1:1 Mexico
-Tunisia       2   1   0   8   5   3   7                    Tunisia 1:1 Serbia
-Germany       1   1   1   5   3   2   4                    Germany 1:2 Tunisia
-Mexico        1   1   1   6   7   -1  4                    Serbia 1:2 Mexico
-Serbia        0   1   2   2   6   -4  1                    Serbia 0:3 Germany
-                                                           Mexico 3:5 Tunisia
+Team          W   D   L   GF  GA  GD  Pts                  Portugal 3:1 Colombia
+Portugal      2   0   1   7   2   5   6                    Sweden 1:1 Australia
+Colombia      2   0   1   10  6   4   6                    Portugal 4:0 Sweden
+Australia     1   1   1   4   4   0   4                    Australia 2:3 Colombia
+Sweden        0   1   2   2   11  -9  1                    Australia 1:0 Portugal
+                                                           Colombia 6:1 Sweden
 
 Final Result for Group C                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Portugal 1:4 Peru
-Peru          3   0   0   13  3   10  9                    Sweden 4:0 Panama
-Portugal      2   0   1   7   5   2   6                    Portugal 4:1 Sweden
-Sweden        1   0   2   6   8   -2  3                    Panama 1:5 Peru
-Panama        0   0   3   1   11  -10 0                    Panama 0:2 Portugal
-                                                           Peru 4:1 Sweden
+Team          W   D   L   GF  GA  GD  Pts                  Poland 1:1 Switzerland
+Poland        2   1   0   15  5   10  7                    Senegal 3:0 Panama
+Switzerland   2   1   0   10  2   8   7                    Poland 7:3 Senegal
+Senegal       1   0   2   7   10  -3  3                    Panama 0:6 Switzerland
+Panama        0   0   3   1   16  -15 0                    Panama 1:7 Poland
+                                                           Switzerland 3:1 Senegal
 
 Final Result for Group D                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Argentina 0:1 England
-England       3   0   0   8   1   7   9                    Denmark 5:0 SouthKorea
-Argentina     2   0   1   10  2   8   6                    Argentina 3:1 Denmark
-Denmark       1   0   2   7   6   1   3                    SouthKorea 0:4 England
-SouthKorea    0   0   3   0   16  -16 0                    SouthKorea 0:7 Argentina
-                                                           England 3:1 Denmark
+Team          W   D   L   GF  GA  GD  Pts                  Brazil 6:1 Croatia
+Brazil        3   0   0   12  3   9   9                    Iran 3:1 Nigeria
+Iran          1   1   1   6   6   0   4                    Brazil 4:2 Iran
+Nigeria       1   0   2   3   6   -3  3                    Nigeria 2:1 Croatia
+Croatia       0   1   2   3   9   -6  1                    Nigeria 0:2 Brazil
+                                                           Croatia 1:1 Iran
 
 Final Result for Group E                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Brazil 0:1 Switzerland
-Switzerland   3   0   0   11  0   11  9                    Senegal 3:0 Australia
-Brazil        2   0   1   7   3   4   6                    Brazil 3:1 Senegal
-Senegal       1   0   2   4   9   -5  3                    Australia 0:4 Switzerland
-Australia     0   0   3   1   11  -10 0                    Australia 1:4 Brazil
-                                                           Switzerland 6:0 Senegal
+Team          W   D   L   GF  GA  GD  Pts                  France 0:0 Mexico
+Mexico        2   1   0   10  2   8   7                    Egypt 1:1 SouthKorea
+France        2   1   0   5   0   5   7                    France 4:0 Egypt
+SouthKorea    0   1   2   2   8   -6  1                    SouthKorea 1:6 Mexico
+Egypt         0   1   2   2   9   -7  1                    SouthKorea 0:1 France
+                                                           Mexico 4:1 Egypt
 
 Final Result for Group F                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  France 0:1 Croatia
-Croatia       3   0   0   6   0   6   9                    Egypt 1:2 Japan
-France        2   0   1   6   4   2   6                    France 3:1 Egypt
-Japan         1   0   2   4   7   -3  3                    Japan 0:3 Croatia
-Egypt         0   0   3   2   7   -5  0                    Japan 2:3 France
-                                                           Croatia 2:0 Egypt
+Team          W   D   L   GF  GA  GD  Pts                  Argentina 2:1 England
+Argentina     3   0   0   6   1   5   9                    CostaRica 1:1 Serbia
+Serbia        1   1   1   2   2   0   4                    Argentina 3:0 CostaRica
+CostaRica     1   1   1   3   5   -2  4                    Serbia 1:0 England
+England       0   0   3   2   5   -3  0                    Serbia 0:1 Argentina
+                                                           England 1:2 CostaRica
 
 Final Result for Group G                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Poland 1:2 Colombia
-Colombia      3   0   0   8   4   4   9                    Iceland 0:1 Morocco
-Poland        1   1   1   8   4   4   4                    Poland 2:2 Iceland
-Morocco       1   0   2   1   6   -5  3                    Morocco 0:1 Colombia
-Iceland       0   1   2   5   8   -3  1                    Morocco 0:5 Poland
-                                                           Colombia 5:3 Iceland
+Team          W   D   L   GF  GA  GD  Pts                  Belgium 2:1 Peru
+Belgium       3   0   0   7   2   5   9                    Denmark 3:0 Morocco
+Peru          2   0   1   7   2   5   6                    Belgium 2:1 Denmark
+Denmark       1   0   2   4   3   1   3                    Morocco 0:5 Peru
+Morocco       0   0   3   0   11  -11 0                    Morocco 0:3 Belgium
+                                                           Peru 1:0 Denmark
 
 Final Result for Group H                                  Detail:
-Team          W   D   L   GF  GA  GD  Pts                  Belgium 1:1 Uruguay
-Uruguay       2   1   0   10  1   9   7                    Iran 2:2 Nigeria
-Belgium       1   2   0   7   3   4   5                    Belgium 2:2 Iran
-Iran          0   2   1   4   6   -2  2                    Nigeria 0:7 Uruguay
-Nigeria       0   1   2   2   13  -11 1                    Nigeria 0:4 Belgium
-                                                           Uruguay 2:0 Iran
+Team          W   D   L   GF  GA  GD  Pts                  Germany 4:3 Spain
+Germany       2   1   0   6   3   3   7                    Tunisia 2:0 SaudiArabia
+Spain         2   0   1   11  4   7   6                    Germany 2:0 Tunisia
+Tunisia       1   0   2   2   9   -7  3                    SaudiArabia 0:1 Spain
+SaudiArabia   0   1   2   0   3   -3  1                    SaudiArabia 0:0 Germany
+                                                           Spain 7:0 Tunisia
 
