@@ -5,27 +5,13 @@ using namespace std;
 
 #include "GroupStage.h"
 
-void GroupStage::readInVenue(vector<string> &venues){
-	ifstream fin("data/venues.txt");
-	string venue;
-	int amount;
-	fin >> amount;
-	fin.ignore(999, '\n');
-	while(amount--){
-		getline(fin, venue, '\r');
-		fin.ignore(999, '\n');
-		venues.push_back(venue);
-	}
-	fin.close();
-}
-
-void GroupStage::schedueling(const vector<Team> groups[8], const vector<string> &venues){
+void GroupStage::schedueling(const vector<Team> groups[8]){
 	vector<pair<int, string> > sche(48);
 	ifstream fin("data/GroupStageSchedule.txt");
 	for(int i = 0; i < 48; ++i){
 		fin >> sche[i].first;
 		fin.ignore(999, '\n');
-		getline(fin, sche[i].second, '\r');
+		getline(fin, sche[i].second, '\n');
 	}
 	queue<Match> allMatches;
 	for(int i = 0; i < 8; ++i){
@@ -73,10 +59,7 @@ void GroupStage::printScheduel(ostream &out) const{
 }
 
 void GroupStage::playing(Result &res) const{
-	for(int i = 0; i < 15; ++i){
-		for(const Match &m: matchesByDate[i]){
-			cout << m.venue << "  June " << m.date << endl;
+	for(int i = 0; i < 15; ++i)
+		for(const Match &m: matchesByDate[i])
 			m.match(res);
-		}
-	}
 }

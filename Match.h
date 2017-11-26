@@ -22,7 +22,7 @@ public:
 
 private:	
 	void randomPick(const Team &team, vector<Player> &ply) const;
-	void show_ply(const vector<Player> &plyA, const vector<Player> &plyB) const;	
+	void show_ply(const vector<Player> &plyA, const vector<Player> &plyB, ostream &out) const;	
 
 	Team teamA, teamB;
 	string venue;      // ³¡¹Ý

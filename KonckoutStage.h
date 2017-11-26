@@ -17,28 +17,33 @@ friend class Result;
 
 public:
 	//构造函数，传入十六强队伍
-	KonckoutStage(const vector<Team> &_top16):top16(_top16) {}
+	KonckoutStage(const vector<Team> &_top16):top16(_top16){
+		printTeam16(cout);
+		ofstream fout("data/Team16.txt");
+		printTeam16(fout);
+		fout.close();
+	}
 
 	//给16强队伍安排8常比赛，从 7 月 1 日开始，每天两场比赛
-	void scheduling16(const vector<string> &venues);
+	void scheduling16();
 	
 	//依次进行16强比赛，胜利的队伍晋级8强.
 	void playing16(Result& result, vector<Team> &rank8_16);
 	
 	// 7 月 7 日开始，每天两场比赛.
-	void schedulingQuarter(const vector<string> &venues);
+	void schedulingQuarter();
 	
 	//依次进行4场四分一决赛，胜利队伍晋级4强.
 	void playingQuarter(Result& result, vector<Team> &rank4_8);	
 	
 	//7月11日开始，每天1场比赛.
-	void schedulingSemi(const vector<string> &venues);
+	void schedulingSemi();
 
 	//依次进行两场半决赛，胜出的进行冠军赛，失败的进行季军赛.
 	void playingSemi(Result& result);	
 	
 	//7月15季军赛，7月16冠军赛.
-	void schedulingFinal(const vector<string> &venues);
+	void schedulingFinal();
 
 	//决定冠军、亚军、季军.
 	void playingFinal(Result& result, vector<Team> &rank1_4);
@@ -46,6 +51,9 @@ public:
 	void printBracket(ostream &out, int period);
 
 private:
+	// 打印16强队伍
+	void printTeam16(ostream &out);
+
 	//按照比赛顺序重排列.
 	void reArrange();
 

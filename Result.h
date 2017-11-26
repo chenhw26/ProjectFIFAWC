@@ -41,6 +41,7 @@ public:
 	// 初始化各队积分
 	Result(const vector<Team> groups[8]);
 
+	// 记录两队比赛结果
 	void matchResult(const Team &teamA, const Team &teamB, int scoreOfA, int scoreOfB);
 
 	// 统计并打印小组赛结果, 将结果写在top16里

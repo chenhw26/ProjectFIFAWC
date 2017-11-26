@@ -1,4 +1,5 @@
 #include <fstream>
+#include <iostream>
 
 #include "Team.h"
 #include "Result.h"
@@ -11,14 +12,17 @@ void Team::readin(vector<Team> &allTeams){
 		string s;
 		int tmp, amount;
 		fin >> s >> amount;
+		cout << s << ' ' << amount << endl;
 		while(amount--){
 			fin >> s >> tmp;
+			cout << ' ' << s << ' ' << tmp << endl;
 			Team team;
 			team.country = s;
 			team.rank = tmp;
 			team.rgn = allRegion[i];
 			allTeams.push_back(team);
 		}
+		cout << endl;
 	}
 	fin.close();
 	for(Team &p: allTeams){
@@ -40,7 +44,7 @@ void Team::readin(vector<Team> &allTeams){
 				pl.pos = pos;
 				fin >> pl.num;
 				fin.ignore(999, '\n');
-				getline(fin, pl.name, '\r');
+				getline(fin, pl.name, '\n');
 				ply -> push_back(pl);
 			}
 		}

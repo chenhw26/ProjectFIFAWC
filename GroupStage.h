@@ -9,12 +9,9 @@
 class GroupStage{
 public:
 	// 安排日程存在文件中，安排场馆，打印信息
-	void schedueling(const vector<Team> groups[8], const vector<string> &venues);
+	void schedueling(const vector<Team> groups[8]);
 	
 	void playing(Result &res) const;
-
-	// 读入场馆信息
-	static void readInVenue(vector<string> &venues);
 
 private:
 	// 打印日程，可打印在屏幕上或文件上

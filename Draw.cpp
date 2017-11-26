@@ -19,7 +19,7 @@ const Draw& Draw::showPots() const{
 }
 
 const Draw& Draw::storePots() const{
-	ofstream fout("data/finalDraw.txt");
+	ofstream fout("data/finalDraw.txt", ios_base::trunc);
 	fout << "The First Stage:" << endl;
 	for(int i = 0; i < 4; ++i){
 		fout << "pot" << i + 1 << ':' << endl;

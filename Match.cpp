@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdio>
-#include <cstdlib>
+#include <fstream>
+#include <iomanip>
 #include <cmath>
 
 #include "Random.h"
@@ -36,53 +36,78 @@ void Match::randomPick(const Team &team, vector<Player> &ply) const{
 	}	
 }
 
-void Match::show_ply(const vector<Player> &plyA, const vector<Player> &plyB) const{
-	printf("%-35s%s\n", teamA.country.c_str(), teamB.country.c_str());
+void Match::show_ply(const vector<Player> &plyA, const vector<Player> &plyB, ostream &out) const{
+	out << left << setw(35) << teamA.country << teamB.country << endl;
 	for(int i = 0; i < 11; ++i){
 		Player A(plyA[i]), B(plyB[i]);
-		printf("#%-2d %-20s %s      #%-2d %-20s %s\n", A.num, A.name.c_str(), A.pos.c_str(),
-			                                               B.num, B.name.c_str(), B.pos.c_str());
+		out << '#' << left << setw(2) << A.num << ' ' << setw(20) << A.name << ' '
+			<< A.pos << "      #" << setw(2) << B.num << ' ' << setw(20) << B.name
+			<< ' ' << B.pos << endl;
 	}
 }
 
 pair<int, int> Match::match(Result &res) const{
+	ofstream fout("data/SimulationLog.txt", ios_base::app);
+	if(date < 14 || ((date == 14 && venue == "Krestovsky Stadium, Saint Petersburg"))
+		|| ((date == 15) && venue == "Luzhniki Stadium, Moscow")){
+		cout << "July ";
+		fout << "July ";
+	}
+	else{ 
+		cout << "June ";
+		fout << "June ";
+	}
+	cout << (date? date: 30) << ", " << venue << endl;
 	cout << teamA.country << " vs " << teamB.country << endl;
+	fout << (date? date: 30) << ", " << venue << endl;
+	fout << teamA.country << " vs " << teamB.country << endl;
 	vector<Player> teamAPly, teamBPly;
 	randomPick(teamA, teamAPly);
 	randomPick(teamB, teamBPly);
-	// show_ply(teamA, teamB, teamAPly, teamBPly);
+	show_ply(teamAPly, teamBPly, cout);
+	show_ply(teamAPly, teamBPly, fout);
 	double expGoalOfA = 2 * sin(pi * (teamB.rank - teamA.rank) / 124) + 2;
 	double expGoalOfB = 4 - expGoalOfA;
 	int scoreOfA = 0, scoreOfB = 0;
 	cout << "Playing..." << endl;
+	fout << "Playing..." << endl;
 	for(int i = 0; i < 10; ++i){
 		int GoalOfA = Random::poisson(expGoalOfA / 10), GoalOfB = Random::poisson(expGoalOfB / 10);
 		scoreOfA += GoalOfA; scoreOfB += GoalOfB;
 		if(GoalOfA || GoalOfB){
-			// printf("%d:00 ~ %d:00\n", i * 10, (i + 1) * 10);
+			cout << i * 10 << ":00 ~ " << (i + 1) * 10 << ":00\n";
+			fout << i * 10 << ":00 ~ " << (i + 1) * 10 << ":00\n";
 			for(int j = 0; j < GoalOfA; ++j){
 				Player goalScorer = teamAPly[rand() % 10 + 1];
 				res.goal(goalScorer);
-				// printf("%s did a goal, and it was #%d, %s did the goal.\n", teamA.country.c_str(), goalScorer.num,
-					                                                        // goalScorer.name.c_str());
+				cout << teamA.country << " did a goal, and it was #" << goalScorer.num << ", " 
+					 << goalScorer.name << " did the goal.\n";
+				fout << teamA.country << " did a goal, and it was #" << goalScorer.num << ", " 
+					 << goalScorer.name << " did the goal.\n";
 			}
 			for(int j = 0; j < GoalOfB; ++j){
 				Player goalScorer = teamBPly[rand() % 10 + 1];
 				res.goal(goalScorer);
-				// printf("%s did a goal, and it was #%d, %s did the goal.\n", teamB.country.c_str(), goalScorer.num,
-					                                                        // goalScorer.name.c_str());
+				cout << teamB.country << " did a goal, and it was #" << goalScorer.num << ", " 
+					 << goalScorer.name << " did the goal.\n";
+				fout << teamB.country << " did a goal, and it was #" << goalScorer.num << ", " 
+					 << goalScorer.name << " did the goal.\n";
 			}
-			// printf("Now is  %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+			cout << "Now is  " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl << endl;
+			fout << "Now is  " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl << endl;
 		}	
 	}
-	printf("Result: %s %d:%d %s\n\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+	cout << "Result: " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl << endl;
+	fout << "Result: " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl << endl;
     res.matchResult(teamA, teamB, scoreOfA, scoreOfB);
     res.scoreResult[teamA.group].push_back(pair<int, int>(scoreOfA, scoreOfB));
     return pair<int, int>(scoreOfA, scoreOfB);
 }
 
 pair<int, int> Match::penalties() const{
-	printf("Now is penaltly shoot-out!!\n");
+	ofstream fout("data/SimulationLog.txt", ios_base::app);
+	cout << "Now is penaltly shoot-out!!\n";
+	fout << "Now is penaltly shoot-out!!\n";
 	int scoreOfA = 0, scoreOfB = 0;
 	double goalRatioOfA, goalRatioOfB;
 	if(teamA.rank < teamB.rank){
@@ -99,22 +124,30 @@ pair<int, int> Match::penalties() const{
 		if(scoreOfA + 5 - i < scoreOfB) break;
 		bool goalA = Random::random_bool(goalRatioOfA), goalB = Random::random_bool(goalRatioOfB);
 		scoreOfA += (goalA? 1: 0);
-		// printf("%s %s a goal, now is %s %d:%d %s\n", teamA.country.c_str(), (goalA? "did": "missed"), 
-													 // teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+		cout << teamA.country << ' ' << (goalA? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+		fout << teamA.country << ' ' << (goalA? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 		if(scoreOfA > scoreOfB + 5 - i) break;
 		scoreOfB += (goalB? 1: 0);
-		// printf("%s %s a goal, now is %s %d:%d %s\n", teamB.country.c_str(), (goalB? "did": "missed"), 
-													 // teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());		
-	}
+		cout << teamB.country << ' ' << (goalB? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+		fout << teamB.country << ' ' << (goalB? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+}
 	while(scoreOfA == scoreOfB){
 		bool goalA = Random::random_bool(goalRatioOfA), goalB = Random::random_bool(goalRatioOfB);
 		scoreOfA += (goalA? 1: 0);
-		// printf("%s %s a goal, now is %s %d:%d %s\n", teamA.country.c_str(), (goalA? "did": "missed"), 
-													 // teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+		cout << teamA.country << ' ' << (goalA? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+		fout << teamA.country << ' ' << (goalA? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 		scoreOfB += (goalB? 1: 0);
-		// printf("%s %s a goal, now is %s %d:%d %s\n", teamB.country.c_str(), (goalB? "did": "missed"), 
-													 // teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+		cout << teamB.country << ' ' << (goalB? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+		fout << teamB.country << ' ' << (goalB? "did": "missed") << " a goal, now is "
+			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 	}
-	printf("\nResult: %s %d:%d %s\n", teamA.country.c_str(), scoreOfA, scoreOfB, teamB.country.c_str());
+	cout << "\nResult: " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 	return pair<int, int>(scoreOfA, scoreOfB);
 }

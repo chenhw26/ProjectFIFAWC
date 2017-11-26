@@ -1,186 +1,192 @@
 
-5 goal(s)
- Danilo , DF , Brazil
-
 4 goal(s)
- Artur Jedrzejczyk , DF , Poland
- Oscar Murillo , DF , Colombia
+ Mario Götze , MF , Germany
+ Timo Werner , FW , Germany
+ Domagoj Vida , DF , Croatia
+ Frank Fabra , DF , Colombia
 
 3 goal(s)
- Giovanni Moreno , MF , Colombia
- Jakub Blaszczykowski , MF , Poland
- Breel Embolo , FW , Switzerland
- Valon Behrami , MF , Switzerland
- Mariusz Stepinski , FW , Poland
- Neymar , FW , Brazil
- Dario Benedetto , FW , Argentina
- German Pezzella , DF , Argentina
- Pawel Wszolek , MF , Poland
- Niklas Süle , DF , Germany
- Emre Can , MF , Germany
- Nacer Chadli , MF , Belgium
+ Edison Flores , MF , Peru
+ Manuel Akanji , DF , Switzerland
+ Rodrigo , FW , Spain
+ Lars Stindl , FW , Germany
+ Pepe , DF , Portugal
+ Alvaro Gonzalez , MF , Uruguay
+ Kevin Rodrigues , DF , Portugal
+ Alberto Rodriguez , DF , Peru
 
 2 goal(s)
- Alberto Moreno , DF , Spain
- Marco Asensio , MF , Spain
- Mateus Uribe , MF , Colombia
- Maciej Rybus , DF , Poland
- Anderson Santamaria , DF , Peru
- Bernardo Silva , MF , Portugal
- Romelu Lukaku , FW , Belgium
- Thiago Cionek , DF , Poland
- Papa Alioune Ndiaye , MF , Senegal
+ Shintaro Kurumaya , DF , Japan
+ Abel Aguilar , MF , Colombia
+ Osvaldo Rodriguez , MF , CostaRica
+ Nilson Loyola , DF , Peru
  Dani Alves , DF , Brazil
- Hector Moreno , DF , Mexico
- Cesar Montes , DF , Mexico
- Giovani Lo Celso , MF , Argentina
- Lionel Messi , FW , Argentina
- Diafra Sakho , FW , Senegal
- Laurent Ciman , DF , Belgium
- Carlos Sanchez , MF , Uruguay
- Olafur Skulason , MF , Iceland
- Carlos Salcedo , DF , Mexico
- Stefan Medina , DF , Colombia
- Mousa Dembnxlnx , MF , Belgium
+ Casemiro , MF , Brazil
+ Marcelo , DF , Brazil
+ Mesut Özil , MF , Germany
+ Diego Souza , FW , Brazil
+ Thiago Silva , DF , Brazil
+ Matthias Ginter , DF , Germany
+ Mikael Lustig , DF , Sweden
+ Marcus Rashford , FW , England
+ Axel Witsel , MF , Belgium
+ Emre Can , MF , Germany
+ Emanuel Mammana , DF , Argentina
+ Jemerson , DF , Brazil
+ Luis Alberto , MF , Spain
+ Corentin Tolisso , MF , France
+ David Silva , MF , Spain
+ Yeltsin Tejeda , MF , CostaRica
+ Alfred Ndiaye , MF , Senegal
+ Leandro Paredes , MF , Argentina
+ Bruno Fernandes , MF , Portugal
+ Rony Lopes , FW , Portugal
+ Giorgian De Arrascaeta , MF , Uruguay
+ Lasse Schone , MF , Denmark
+ Christian Eriksen , MF , Denmark
+ Dejan Lovren , DF , Croatia
+ Thomas Meunier , DF , Belgium
+ Xherdan Shaqiri , MF , Switzerland
+ Steven Defour , MF , Belgium
  Yerry Mina , DF , Colombia
+ Ahmed Fathy , DF , Egypt
+ Antonio Rüdiger , DF , Germany
+ Danilo , DF , Brazil
  Kamil Wilczek , FW , Poland
- Luis Neto , DF , Portugal
- Saeid Aghaei , DF , Iran
- Ricardo Ferreira , DF , Portugal
- Jose Maria Gimenez , DF , Uruguay
- Adnan Januzaj , FW , Belgium
- Leo Lacroix , DF , Switzerland
- Wilfred Ndidi , MF , Nigeria
+ Filip Bradaric , MF , Croatia
+ Hector Moreno , DF , Mexico
+ Marcel Halstenberg , DF , Germany
+ Wilder Cartagena , MF , Peru
 
 1 goal(s)
- Bruma , FW , Portugal
- Nelson Semedo , DF , Portugal
- James Troisi , MF , Australia
- Rurik Gislason , MF , Iceland
- Stephan Lichtsteiner , DF , Switzerland
- Adama Mbengue , DF , Senegal
- Roberto , FW , Brazil
- Ivan Strinic , DF , Croatia
- Willian , MF , Brazil
- Alex Iwobi , FW , Nigeria
- Karim Ansarifard , FW , Iran
- Vouria Ghafouri , DF , Iran
- Kim Jin-su , DF , SouthKorea
- Renato Augusto , MF , Brazil
- Alex Sandro , DF , Brazil
- Gabriel Jesus , FW , Brazil
- Aymen Trabelsi , MF , Tunisia
- Thomas Delaney , MF , Denmark
- Jakub Swierczok , FW , Poland
- Milad Mohammadi , DF , Iran
- Andreas Cornelius , FW , Denmark
- lvaro Odriozola , DF , Spain
- Gerard Pique , DF , Spain
- Asier Illarramendi , MF , Spain
- Julian Brandt , MF , Germany
- Alfreo Finnbogason , FW , Iceland
- Karim Aouadhi , MF , Tunisia
- Jchehann Berg Guomundsson , MF , Iceland
- Pontus Jansson , DF , Sweden
- Rodrigo Bentancur , MF , Uruguay
- Federico Valverde , MF , Uruguay
- Elmar Bjarnason , MF , Iceland
- Arnor Ingvi Traustason , MF , Iceland
- Vioar Kjartansson , FW , Iceland
- Cheikhou Kouyate , MF , Senegal
- Alfred Ndiaye , MF , Senegal
- Rafal Kurzawa , MF , Poland
- Krzysztof Maczynski , MF , Poland
- Jaroslaw Jach , DF , Poland
- Massimo Luongo , MF , Australia
- Carlos Sanchez , MF , Colombia
- Adrian Zela , DF , Peru
- Ryan McGowan , DF , Australia
- Ricardo Pereira , DF , Portugal
+ Ken Sema , MF , Sweden
+ Marcus Berg , FW , Sweden
+ Andreas Granqvist  , DF , Sweden
+ Gustav Svensson , MF , Sweden
+ Omar Gaber , DF , Egypt
  Ruben Neves , MF , Portugal
- Gaston Silva , DF , Uruguay
- Maxi Pereira , DF , Uruguay
- Shu Kurata , MF , Japan
- Ragnar Sigurosson , DF , Iceland
- Ivan Perisic , MF , Croatia
- Davinson Sanchez , DF , Colombia
- Renato Tapia , MF , Peru
- Andre Carrillo , FW , Peru
- Pione Sisto , MF , Denmark
- Kevin De Bruyne , MF , Belgium
- Christian Kabasele , DF , Belgium
- Sergej Milinkovic-Savic , MF , Serbia
- Leandro Paredes , MF , Argentina
- Jonathan dos Santos , MF , Mexico
- Thiago Silva , DF , Brazil
- Jurgen Damm , MF , Mexico
- Lucas Digne , DF , France
- Steven N'Zonzi , MF , France
- Adrien Rabiot , MF , France
- Christophe Jallet , DF , France
- Samuel Umtiti , DF , France
- Matias Vecino , MF , Uruguay
- Luis Ovalle , DF , Panama
- Craig Goodwin , MF , Australia
- Viktor Claesson , MF , Sweden
- Jan Vertonghen , DF , Belgium
- Andres Iniesta , MF , Spain
- Eden Hazard , FW , Belgium
- Presnel Kimpembe , DF , France
- Aron Gunnarsson , MF , Iceland
- Blaise Matuidi , MF , France
- Aldo Corzo , DF , Peru
- Alberto Rodriguez , DF , Peru
- Rafal Wolski , MF , Poland
- Tomasz Kedziora , DF , Poland
- Uriel Antuna , MF , Mexico
- Danilo Pereira , MF , Portugal
- Philippe Coutinho , MF , Brazil
- Maximiliano Gomez , FW , Uruguay
- Giorgian De Arrascaeta , MF , Uruguay
- Kjartan Finnbogason , FW , Iceland
- Makoto Hasebe , MF , Japan
- Hotaru Yamaguchi , MF , Japan
- Yosuke Ideguchi , MF , Japan
- Laurent Koscielny , DF , France
- Marko Rog , MF , Croatia
- Ricardo Rodriguez , DF , Switzerland
- Nacho , DF , Spain
- Edimilson Fernandes , MF , Switzerland
+ Kaveh Rezaei , FW , Iran
+ Karim El Ahmadi , MF , Morocco
+  , FW , Morocco
+ Alireza Jahanbakhsh , MF , Iran
  Mehdi Taremi , FW , Iran
- Steven Defour , MF , Belgium
- Matthias Ginter , DF , Germany
- Granit Xhaka , MF , Switzerland
- Jannik Vestergaard , DF , Denmark
- Nilson Loyola , DF , Peru
- Vitolo , FW , Spain
- Marc Bartra , DF , Spain
- Isco , MF , Spain
+ Alexandre Lacazette , FW , France
+ Raphael Varane , DF , France
+ Carlos Sanchez , MF , Uruguay
+ Angel Di Maria , FW , Argentina
+ Milos Veljkovic , DF , Serbia
+ John Stones , DF , England
+ Mathias Jorgensen , DF , Denmark
+ Makoto Hasebe , MF , Japan
+ Jan Carlos Vargas , DF , Panama
+ Asier Illarramendi , MF , Spain
+ Mousa Dembnxlnx , MF , Belgium
+ Cheikh Ndoye , MF , Senegal
+ Kara Mbodji , DF , Senegal
+ Sami Khedira , MF , Germany
+ Roberto , FW , Brazil
+ Ruben Loftus-Cheek , MF , England
+ Moamen Zakaria , MF , Egypt
+ Amr Marey , FW , Egypt
+ Danilo Pereira , MF , Portugal
+ Daniel Colindres , MF , CostaRica
+ Michael Lang , DF , Switzerland
+ Admir Mehmedi , FW , Switzerland
+ Rodney Wallace , MF , CostaRica
+ Saul Liguez , MF , Spain
+ Syam Ben Youssef , DF , Tunisia
+ Aymen Trabelsi , MF , Tunisia
+ Zoran Nizic , DF , Croatia
+ Ivan Perisic , MF , Croatia
+ Nikola Kalinic , FW , Croatia
+ Ramin Rezaeian , DF , Iran
+ Ahmed Elmohamady , DF , Egypt
+ Akbar Imani , MF , Iran
+ Steven Zuber , MF , Switzerland
+ Remo Freuler , MF , Switzerland
+ Breel Embolo , FW , Switzerland
+ Diego , MF , Brazil
+ Andre Carrillo , FW , Peru
+ Chidiebere Nwakali , MF , Nigeria
+ Carlos Salcedo , DF , Mexico
+ Reza Ghoochannejhad , FW , Iran
  Wilmar Barrios , MF , Colombia
- Pepe , DF , Portugal
- Gelson Martins , FW , Portugal
- Diego Souza , FW , Brazil
- Omar Govea , MF , Mexico
- Jung Woo-young , MF , SouthKorea
- Ramadan Sobhi , MF , Egypt
- Fernando Belluschi , MF , Argentina
- Jesse Lingard , MF , England
- Antonio Rukavina , DF , Serbia
- Bryan Ruiz , FW , CostaRica
- Youri Tielemans , MF , Belgium
- Paolo Hurtado , MF , Peru
- Chescar Duarte , DF , CostaRica
- Kieran Trippier , DF , England
- Marco Urena , FW , CostaRica
- Eduardo Salvio , MF , Argentina
+ Oscar Murillo , DF , Colombia
+ Duvan Zapata , FW , Colombia
+ Fallou Diagne , DF , Senegal
+ Maxi Pereira , DF , Uruguay
+ Erick Davis , DF , Panama
+ Manuel Vargas , MF , Panama
+ Edinson Cavani , FW , Uruguay
+ Jon Guoni Fjoluson , DF , Iceland
+ Rafal Kurzawa , MF , Poland
+ Artur Jedrzejczyk , DF , Poland
+ William Kvist , MF , Denmark
  Hirving Lozano , FW , Mexico
- Miguel Layun , DF , Mexico
+ Raul Jimenez , FW , Mexico
+ Dario Benedetto , FW , Argentina
+ Renato Augusto , MF , Brazil
+ David Guzman , MF , CostaRica
+ John Ogu , MF , Nigeria
+ Yuto Nagatomo , DF , Japan
+ Presnel Kimpembe , DF , France
+ Christian Cueva , MF , Peru
+ Kylian Mbappe , FW , France
+ Johan Venegas , FW , CostaRica
+ Eric Dier , MF , England
+ Mike Jensen , MF , Denmark
+ Peter Ankersen , DF , Denmark
+ Adnan Januzaj , FW , Belgium
+ Laurent Ciman , DF , Belgium
  Nestor Araujo , DF , Mexico
+ Eder Alvarez Balanta , DF , Colombia
+ Marcelo Brozovic , MF , Croatia
+ Alejandro Gomez , MF , Argentina
+ Jesse Lingard , MF , England
+ Vitolo , FW , Spain
+ Jordi Alba , DF , Spain
+ Moussa Sissoko , MF , France
+ Mario Pasalic , MF , Croatia
+ Andres Iniesta , MF , Spain
+ Stephan Lichtsteiner , DF , Switzerland
+ Ricardo Pereira , DF , Portugal
+ Younes Belhanda , MF , Morocco
+ Mario Gavranovic , FW , Switzerland
+ Ricardo Rodriguez , DF , Switzerland
+ Cristian Pavon , FW , Argentina
+ Fernando Belluschi , MF , Argentina
+ Abdallah Said , MF , Egypt
+ Andrej Kramaric , FW , Croatia
+ Thiago Alcantara , MF , Spain
+ Felipe Pardo , FW , Colombia
+ German Pezzella , DF , Argentina
  Saad Samir , DF , Egypt
- Leander Dendoncker , DF , Belgium
- Paulinho , MF , Brazil
- Giuliano , MF , Brazil
- Kevin Mirallas , FW , Belgium
- Fernandinho , MF , Brazil
- Bartosz Bereszynski , DF , Poland
- Javier Mascherano , DF , Argentina
+ Paolo Hurtado , MF , Peru
+ Renato Tapia , MF , Peru
+ Khalil Chemmam , DF , Tunisia
+ Bryan Oviedo , DF , CostaRica
+ Marco Urena , FW , CostaRica
+ Aviles Hurtado , FW , Colombia
+ Sergio Ramos , DF , Spain
+ Andreas Cornelius , FW , Denmark
+ Hamza Mathlouthi , DF , Tunisia
+ Youssef Msakni , FW , Tunisia
+ Ghailene Chaalali , MF , Tunisia
+ Yuya Kubo , FW , Japan
+ Emiliano Rigoni , MF , Argentina
+ Nenad Krsticic , MF , Serbia
+ Giovanni Moreno , MF , Colombia
+ Gaston Pereiro , FW , Uruguay
+ Maciej Rybus , DF , Poland
+ Jchehann Berg Guomundsson , MF , Iceland
+ Hugo Ayala , DF , Mexico
+ Hjortur Hermannsson , DF , Iceland
+ Joe Gomez , DF , England
+ Lionel Messi , FW , Argentina
+ Goncalo Paciencia , FW , Portugal
+ Goncalo Guedes , FW , Portugal
+ Joao Cancelo , DF , Portugal
+ Nicolas Otamendi , DF , Argentina
+ Federico Fazio , DF , Argentina
+ Joshua Kimmich , DF , Germany
+ Luis Neto , DF , Portugal
