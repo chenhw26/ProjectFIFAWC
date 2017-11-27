@@ -1,9 +1,9 @@
 Qualified for round of 16:
 Group A       Group B       Group C       Group D       
-1.Peru        1.Brazil      1.Croatia     1.Spain       
-2.CostaRica   2.Switzerland 2.Portugal    2.Tunisia     
+1.Switzerland 1.Croatia     1.Sweden      1.Germany     
+2.Senegal     2.Belgium     2.Argentina   2.Colombia    
 
 Group E       Group F       Group G       Group H       
-1.Argentina   1.Uruguay     1.Belgium     1.Germany     
-2.Mexico      2.Denmark     2.Colombia    2.England     
+1.Spain       1.CostaRica   1.Peru        1.France      
+2.Brazil      2.Poland      2.Portugal    2.Iran        
 

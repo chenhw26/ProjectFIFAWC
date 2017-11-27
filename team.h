@@ -10,7 +10,7 @@ class Result;
 class Draw;
 class GroupStage;
 class Match;
-class KonckoutStage;
+class KnockoutStage;
 
 struct Player{
 	string name;
@@ -24,26 +24,26 @@ class Team{
 	friend class GroupStage;
 	friend class Result;
 	friend class Match;
-	friend class KonckoutStage;
+	friend class KnockoutStage;
 
 public:
-	// 根据排名给球队排序
+	// 根据排名给球队排序，东道主与其他队比较时总是返回true
 	bool operator<(const Team &other) const{
 		if(other.country == "Russia") return false;
 		else if(country == "Russia") return true;
 		else return rank < other.rank;
 	}
 	
-	// 将文件中所有队伍信息读入allTeams中，自行写文件
+	// 将文件中所有队伍信息读入allTeams中
 	static void readin(vector<Team> &);
 
 private:
-	string country;
+	string country;            // 所属国
 	int rank;                  // 世界排名
 	int group;                 // 小组赛分组
-	string rgn;
+	string rgn;                // 所属地区
 	vector<Player> GK, DF, MF, FW;   // 球员
-	static const string allRegion[6];
+	static const string allRegion[6];   // 所有地区
 };
 
 #endif

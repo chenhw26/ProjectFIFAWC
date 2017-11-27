@@ -11,7 +11,7 @@
 #include "Draw.h"
 #include "GroupStage.h"
 #include "Result.h"
-#include "KonckoutStage.h"
+#include "KnockoutStage.h"
 
 using namespace std;
 
@@ -43,50 +43,50 @@ int main(){
 	system("pause");
 	res.groupStageResult(top16, groups, rank16_32);
 	system("pause");
-	KonckoutStage konckoutStage(top16);
+	KnockoutStage knockoutStage(top16);
 	system("pause");
-	konckoutStage.scheduling16();
+	knockoutStage.scheduling16();
 	system("pause");
-	konckoutStage.playing16(res, rank8_16);
-	konckoutStage.printBracket(cout, 16);
-	system("pause");
+	knockoutStage.playing16(res, rank8_16);
+	knockoutStage.printBracket(cout, 16);
 	fout.open("data/Result8.txt");
-	konckoutStage.printBracket(fout, 16);
+	knockoutStage.printBracket(fout, 16);
 	fout.close();
-	konckoutStage.schedulingQuarter();
 	system("pause");
-	konckoutStage.playingQuarter(res, rank4_8);
-	konckoutStage.printBracket(cout, 8);
+	knockoutStage.schedulingQuarter();
 	system("pause");
+	knockoutStage.playingQuarter(res, rank4_8);
+	knockoutStage.printBracket(cout, 8);
 	fout.open("data/Result4.txt");
-	konckoutStage.printBracket(fout, 8);
+	knockoutStage.printBracket(fout, 8);
 	fout.close();
-	konckoutStage.schedulingSemi();
 	system("pause");
-	konckoutStage.playingSemi(res);
-	konckoutStage.printBracket(cout, 4);
+	knockoutStage.schedulingSemi();
 	system("pause");
+	knockoutStage.playingSemi(res);
+	knockoutStage.printBracket(cout, 4);
 	fout.open("data/Result2.txt");
-	konckoutStage.printBracket(fout, 4);
+	knockoutStage.printBracket(fout, 4);
 	fout.close();
-	konckoutStage.schedulingFinal();
 	system("pause");
-	konckoutStage.playingFinal(res, rank1_4);
-	konckoutStage.printBracket(cout, 2);
+	knockoutStage.schedulingFinal();
 	system("pause");
+	knockoutStage.playingFinal(res, rank1_4);
+	knockoutStage.printBracket(cout, 2);
 	fout.open("data/Result1.txt");
-	konckoutStage.printBracket(fout, 2);
+	knockoutStage.printBracket(fout, 2);
 	fout.close();
+	system("pause");
 	res.finalResult(rank16_32, rank8_16, rank4_8, rank1_4);
 	res.printFinalRanklist(cout);
 	fout.open("data/FinalResult.txt");
 	res.printFinalRanklist(fout);
-	system("pause");
 	fout.close();
-	res.printGoalScorers(cout);
 	system("pause");
+	res.printGoalScorers(cout);
 	fout.open("data/GoalScorers.txt");
 	res.printGoalScorers(fout);
 	fout.close();
+	system("pause");
 	return 0;
 }

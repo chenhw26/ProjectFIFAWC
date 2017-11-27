@@ -66,13 +66,13 @@ pair<int, int> Match::match(Result &res) const{
 	randomPick(teamB, teamBPly);
 	show_ply(teamAPly, teamBPly, cout);
 	show_ply(teamAPly, teamBPly, fout);
-	double expGoalOfA = 2 * sin(pi * (teamB.rank - teamA.rank) / 124) + 2;
+	double expGoalOfA = 2 * sin(pi * (teamB.rank - teamA.rank) / 128) + 2;
 	double expGoalOfB = 4 - expGoalOfA;
 	int scoreOfA = 0, scoreOfB = 0;
 	cout << "Playing..." << endl;
 	fout << "Playing..." << endl;
-	for(int i = 0; i < 10; ++i){
-		int GoalOfA = Random::poisson(expGoalOfA / 10), GoalOfB = Random::poisson(expGoalOfB / 10);
+	for(int i = 0; i < 9; ++i){
+		int GoalOfA = Random::poisson(expGoalOfA / 9), GoalOfB = Random::poisson(expGoalOfB / 9);
 		scoreOfA += GoalOfA; scoreOfB += GoalOfB;
 		if(GoalOfA || GoalOfB){
 			cout << i * 10 << ":00 ~ " << (i + 1) * 10 << ":00\n";
@@ -149,5 +149,6 @@ pair<int, int> Match::penalties() const{
 			 << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 	}
 	cout << "\nResult: " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
+	fout << "\nResult: " << teamA.country << ' ' << scoreOfA << ':' << scoreOfB << ' ' << teamB.country << endl;
 	return pair<int, int>(scoreOfA, scoreOfB);
 }

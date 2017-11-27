@@ -1,8 +1,8 @@
 #include <iomanip>
-#include "KonckoutStage.h"
+#include "KnockoutStage.h"
 using namespace std;
 
-void KonckoutStage::printTeam16(ostream &out){
+void KnockoutStage::printTeam16(ostream &out){
 	out << "Qualified for round of 16:\n";
 	for(int i = 0; i < 2; ++i){
 		for(int j = 0; j < 4; ++j)
@@ -17,7 +17,7 @@ void KonckoutStage::printTeam16(ostream &out){
 	}
 }
 
-void KonckoutStage:: reArrange(){
+void KnockoutStage:: reArrange(){
 	vector<Team> temp(top16);
 	top16[1] = temp[3];	top16[9] = temp[11];
 	top16[2] = temp[4];	top16[10] = temp[12];
@@ -30,7 +30,7 @@ void KonckoutStage:: reArrange(){
   pre:schedule8.txt 里有八场比赛的日期和场馆，top16 里有16强队伍.
   pos:把16个队伍安排到8场比赛中，并把安排结果重新放入 schedule8.txt，将比赛放入 Round16里(时间顺序).
 */
-void KonckoutStage:: scheduling16(){
+void KnockoutStage:: scheduling16(){
 	cout << "Schedule for round of 16:\n";
 	reArrange();
 	for(int i = 0; i < 16; i += 2){
@@ -48,7 +48,7 @@ void KonckoutStage:: scheduling16(){
 pre:Round16 里有非时间顺序的8场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result8.txt 里，把晋级队伍保存到top8.
  */
-void KonckoutStage::playing16(Result& result, vector<Team> &rank8_16){
+void KnockoutStage::playing16(Result& result, vector<Team> &rank8_16){
 	for(int i = 0; i < 4; i++){
 		for(int j = 0; j < 2; ++j){
 			pair<int, int> score(0, 0), penalty(0, 0);
@@ -79,7 +79,7 @@ void KonckoutStage::playing16(Result& result, vector<Team> &rank8_16){
 pre:schedule4.txt 里有四场比赛的比赛日期和场馆，top8 里有8强队伍.
 pos:把8个队伍安排到4场比赛中，并把安排结果重新放入 schedule4.txt，将比赛放入 Quarter_finals里.
  */
-void KonckoutStage:: schedulingQuarter(){
+void KnockoutStage:: schedulingQuarter(){
 	cout << "Schedule for quarter finals:\n";
 	for(int i = 0; i < 4; ++i){
 		Match cur_match(top8[2 * i], top8[2 * i + 1]);
@@ -96,7 +96,7 @@ void KonckoutStage:: schedulingQuarter(){
 pre:Quarter_finals 里4场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result4.txt(队伍，比分) 里，把晋级队伍保存到top4.
  */
-void KonckoutStage::playingQuarter(Result& result, vector<Team> &rank4_8){
+void KnockoutStage::playingQuarter(Result& result, vector<Team> &rank4_8){
 	for(int i = 0; i < 2; i++){
 		for(int j = 0; j < 2; ++j){
 			pair<int, int> score, penalty;
@@ -119,7 +119,7 @@ void KonckoutStage::playingQuarter(Result& result, vector<Team> &rank4_8){
 pre:schedule2.txt 里有2场比赛的比赛日期和场馆，top4 里有4强队伍.
 pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule2.txt，将比赛放入 Semi_finals里.
  */
-void KonckoutStage:: schedulingSemi(){
+void KnockoutStage:: schedulingSemi(){
 	cout << "Schedule for semi finals:\n";
 	for(int i = 0; i < 2; i++){
 		Match cur_match(top4[2 * i], top4[2 * i + 1]);
@@ -137,7 +137,7 @@ void KonckoutStage:: schedulingSemi(){
 pre:Semi_finals 里有的2场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result2.txt 里，四个队伍按结果重排，放到FinalTeams.
  */
-void KonckoutStage::playingSemi(Result& result){
+void KnockoutStage::playingSemi(Result& result){
 	FinalTeams.resize(4);
 	pair<int, int> score, penalty;
 	for(int i = 0; i < 2; ++i){
@@ -159,7 +159,7 @@ void KonckoutStage::playingSemi(Result& result){
 pre:schedule1.txt 里有2场比赛的比赛日期和场馆，FinalTeams 里有4个队伍.
 pos:把4个队伍安排到2场比赛中，并把安排结果重新放入 schedule1.txt，将比赛放入 Finals里（决赛在前，季军赛在后）.
  */
-void KonckoutStage:: schedulingFinal(){
+void KnockoutStage:: schedulingFinal(){
 	cout << "Schedule for final and third:\n";
 	for(int i = 0; i < 2; i++){
 		Match cur_match(FinalTeams[2*i], FinalTeams[2*i+1]);
@@ -176,7 +176,7 @@ void KonckoutStage:: schedulingFinal(){
 pre:Final 里有2场比赛.
 pos:按时间顺序开始比赛，并把结果保存到result1.txt 里，把四个队伍重排放到rank.
 */
-void KonckoutStage:: playingFinal(Result& result, vector<Team> &rank1_4){
+void KnockoutStage:: playingFinal(Result& result, vector<Team> &rank1_4){
 	pair<int, int> score, penalty;
 	for(int i = 0; i < 2; i++){
 		if(play(Final[i][0], score, penalty, result)){
@@ -193,7 +193,7 @@ void KonckoutStage:: playingFinal(Result& result, vector<Team> &rank1_4){
 }
 
 /*从文件中读入比赛时间和场地*/
-void KonckoutStage:: readSchedule(const char* fileName, vector<Match> matches[], int day, int numofmtc){
+void KnockoutStage:: readSchedule(const char* fileName, vector<Match> matches[], int day, int numofmtc){
 	ifstream fin(fileName);
 	int date = 0;
 	for(int i = 0; i < day; ++i){
@@ -207,7 +207,7 @@ void KonckoutStage:: readSchedule(const char* fileName, vector<Match> matches[],
 }
 
 /*把比赛双方队伍名称写入文件*/
-void KonckoutStage:: writeSchedule(ostream &out, vector<Match> matches[], int day){
+void KnockoutStage:: writeSchedule(ostream &out, vector<Match> matches[], int day){
 	for(int i = 0; i < day; ++i){
 		out << (matches[i][0].date == 30? "June ": "July ") << matches[i][0].date << endl;
 		for(auto &p: matches[i])
@@ -216,7 +216,7 @@ void KonckoutStage:: writeSchedule(ostream &out, vector<Match> matches[], int da
 	}
 }
 
-bool KonckoutStage::play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res)const {
+bool KnockoutStage::play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res)const {
 	score = match.match(res);
 	if(score.first == score.second){
 		penalty = match.penalties();
@@ -227,7 +227,7 @@ bool KonckoutStage::play(Match& match, pair<int, int>& score, pair<int, int>& pe
 	else return false;
 }
 
-void KonckoutStage::printBracket(ostream &out, int period){
+void KnockoutStage::printBracket(ostream &out, int period){
 	out << right << setw(13) << "Round16" << setw(21) << "Quarter Finals";
 	if(period <= 8) out << setw(19) << "Semi Finals";
 	if(period <= 4) out << setw(18) << "Final";

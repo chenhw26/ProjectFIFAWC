@@ -1,145 +1,145 @@
 Matches by squads
 Group A
- Russia vs Peru , Luzhniki Stadium, Moscow  June 14
- CostaRica vs Nigeria , Central Stadium, Yekaterinburg  June 15
- Russia vs CostaRica , Krestovsky Stadium, Saint Petersburg  June 19
- Nigeria vs Peru , Rostov Arena, Rostov-on-Don  June 20
- Nigeria vs Russia , Cosmos Arena, Samara  June 25
- Peru vs CostaRica , Volgograd Arena, Volgograd  June 25
+ Russia vs Switzerland , Luzhniki Stadium, Moscow  June 14
+ Senegal vs SouthKorea , Central Stadium, Yekaterinburg  June 15
+ Russia vs Senegal , Krestovsky Stadium, Saint Petersburg  June 19
+ SouthKorea vs Switzerland , Rostov Arena, Rostov-on-Don  June 20
+ SouthKorea vs Russia , Cosmos Arena, Samara  June 25
+ Switzerland vs Senegal , Volgograd Arena, Volgograd  June 25
 
 Group B
- Brazil vs Switzerland , Fisht Olympic Stadium, Sochi  June 15
- Sweden vs Australia , Krestovsky Stadium, Saint Petersburg  June 15
- Brazil vs Sweden , Luzhniki Stadium, Moscow  June 20
- Australia vs Switzerland , Kazan Arena, Kazan  June 20
- Australia vs Brazil , Mordovia Arena, Saransk  June 25
- Switzerland vs Sweden , Kaliningrad Stadium, Kaliningrad  June 25
+ Belgium vs Croatia , Fisht Olympic Stadium, Sochi  June 15
+ Egypt vs Australia , Krestovsky Stadium, Saint Petersburg  June 15
+ Belgium vs Egypt , Luzhniki Stadium, Moscow  June 20
+ Australia vs Croatia , Kazan Arena, Kazan  June 20
+ Australia vs Belgium , Mordovia Arena, Saransk  June 25
+ Croatia vs Egypt , Kaliningrad Stadium, Kaliningrad  June 25
 
 Group C
- Portugal vs Croatia , Kazan Arena, Kazan  June 16
- Iran vs Morocco , Mordovia Arena, Saransk  June 16
- Portugal vs Iran , Central Stadium, Yekaterinburg  June 21
- Morocco vs Croatia , Cosmos Arena, Samara  June 21
- Morocco vs Portugal , Luzhniki Stadium, Moscow  June 26
- Croatia vs Iran , Fisht Olympic Stadium, Sochi  June 26
+ Argentina vs Mexico , Kazan Arena, Kazan  June 16
+ Sweden vs Japan , Mordovia Arena, Saransk  June 16
+ Argentina vs Sweden , Central Stadium, Yekaterinburg  June 21
+ Japan vs Mexico , Cosmos Arena, Samara  June 21
+ Japan vs Argentina , Luzhniki Stadium, Moscow  June 26
+ Mexico vs Sweden , Fisht Olympic Stadium, Sochi  June 26
 
 Group D
- France vs Spain , Otkrytiye Arena, Moscow  June 16
- Tunisia vs Japan , Kaliningrad Stadium, Kaliningrad  June 16
- France vs Tunisia , Nizhny Novgorod Stadium, Nizhny Novgorod  June 21
- Japan vs Spain , Volgograd Arena, Volgograd  June 22
- Japan vs France , Krestovsky Stadium, Saint Petersburg  June 26
- Spain vs Tunisia , Rostov Arena, Rostov-on-Don  June 26
+ Germany vs Colombia , Otkrytiye Arena, Moscow  June 16
+ Tunisia vs Panama , Kaliningrad Stadium, Kaliningrad  June 16
+ Germany vs Tunisia , Nizhny Novgorod Stadium, Nizhny Novgorod  June 21
+ Panama vs Colombia , Volgograd Arena, Volgograd  June 22
+ Panama vs Germany , Krestovsky Stadium, Saint Petersburg  June 26
+ Colombia vs Tunisia , Rostov Arena, Rostov-on-Don  June 26
 
 Group E
- Argentina vs Mexico , Rostov Arena, Rostov-on-Don  June 17
- Iceland vs Serbia , Cosmos Arena, Samara  June 17
- Argentina vs Iceland , Krestovsky Stadium, Saint Petersburg  June 22
- Serbia vs Mexico , Kaliningrad Stadium, Kaliningrad  June 22
- Serbia vs Argentina , Otkrytiye Arena, Moscow  June 27
- Mexico vs Iceland , Nizhny Novgorod Stadium, Nizhny Novgorod  June 27
+ Brazil vs Spain , Rostov Arena, Rostov-on-Don  June 17
+ Iceland vs Morocco , Cosmos Arena, Samara  June 17
+ Brazil vs Iceland , Krestovsky Stadium, Saint Petersburg  June 22
+ Morocco vs Spain , Kaliningrad Stadium, Kaliningrad  June 22
+ Morocco vs Brazil , Otkrytiye Arena, Moscow  June 27
+ Spain vs Iceland , Nizhny Novgorod Stadium, Nizhny Novgorod  June 27
 
 Group F
- Poland vs Uruguay , Luzhniki Stadium, Moscow  June 17
- Denmark vs Panama , Nizhny Novgorod Stadium, Nizhny Novgorod  June 18
- Poland vs Denmark , Fisht Olympic Stadium, Sochi  June 23
- Panama vs Uruguay , Rostov Arena, Rostov-on-Don  June 23
- Panama vs Poland , Kazan Arena, Kazan  June 27
- Uruguay vs Denmark , Central Stadium, Yekaterinburg  June 27
+ Poland vs England , Luzhniki Stadium, Moscow  June 17
+ CostaRica vs SaudiArabia , Nizhny Novgorod Stadium, Nizhny Novgorod  June 18
+ Poland vs CostaRica , Fisht Olympic Stadium, Sochi  June 23
+ SaudiArabia vs England , Rostov Arena, Rostov-on-Don  June 23
+ SaudiArabia vs Poland , Kazan Arena, Kazan  June 27
+ England vs CostaRica , Central Stadium, Yekaterinburg  June 27
 
 Group G
- Belgium vs Colombia , Fisht Olympic Stadium, Sochi  June 18
- Senegal vs SouthKorea , Volgograd Arena, Volgograd  June 18
- Belgium vs Senegal , Otkrytiye Arena, Moscow  June 23
- SouthKorea vs Colombia , Nizhny Novgorod Stadium, Nizhny Novgorod  June 24
- SouthKorea vs Belgium , Kaliningrad Stadium, Kaliningrad  June 28
- Colombia vs Senegal , Mordovia Arena, Saransk  June 28
+ Portugal vs Peru , Fisht Olympic Stadium, Sochi  June 18
+ Denmark vs Nigeria , Volgograd Arena, Volgograd  June 18
+ Portugal vs Denmark , Otkrytiye Arena, Moscow  June 23
+ Nigeria vs Peru , Nizhny Novgorod Stadium, Nizhny Novgorod  June 24
+ Nigeria vs Portugal , Kaliningrad Stadium, Kaliningrad  June 28
+ Peru vs Denmark , Mordovia Arena, Saransk  June 28
 
 Group H
- Germany vs England , Otkrytiye Arena, Moscow  June 19
- Egypt vs SaudiArabia , Mordovia Arena, Saransk  June 19
- Germany vs Egypt , Kazan Arena, Kazan  June 24
- SaudiArabia vs England , Central Stadium, Yekaterinburg  June 24
- SaudiArabia vs Germany , Volgograd Arena, Volgograd  June 28
- England vs Egypt , Cosmos Arena, Samara  June 28
+ France vs Uruguay , Otkrytiye Arena, Moscow  June 19
+ Iran vs Serbia , Mordovia Arena, Saransk  June 19
+ France vs Iran , Kazan Arena, Kazan  June 24
+ Serbia vs Uruguay , Central Stadium, Yekaterinburg  June 24
+ Serbia vs France , Volgograd Arena, Volgograd  June 28
+ Uruguay vs Iran , Cosmos Arena, Samara  June 28
 
 
 Matches by date
 June 14
- Russia vs Peru , Luzhniki Stadium, Moscow
+ Russia vs Switzerland , Luzhniki Stadium, Moscow
 
 June 15
- CostaRica vs Nigeria , Central Stadium, Yekaterinburg
- Brazil vs Switzerland , Fisht Olympic Stadium, Sochi
- Sweden vs Australia , Krestovsky Stadium, Saint Petersburg
+ Senegal vs SouthKorea , Central Stadium, Yekaterinburg
+ Belgium vs Croatia , Fisht Olympic Stadium, Sochi
+ Egypt vs Australia , Krestovsky Stadium, Saint Petersburg
 
 June 16
- Portugal vs Croatia , Kazan Arena, Kazan
- Iran vs Morocco , Mordovia Arena, Saransk
- France vs Spain , Otkrytiye Arena, Moscow
- Tunisia vs Japan , Kaliningrad Stadium, Kaliningrad
+ Argentina vs Mexico , Kazan Arena, Kazan
+ Sweden vs Japan , Mordovia Arena, Saransk
+ Germany vs Colombia , Otkrytiye Arena, Moscow
+ Tunisia vs Panama , Kaliningrad Stadium, Kaliningrad
 
 June 17
- Argentina vs Mexico , Rostov Arena, Rostov-on-Don
- Iceland vs Serbia , Cosmos Arena, Samara
- Poland vs Uruguay , Luzhniki Stadium, Moscow
+ Brazil vs Spain , Rostov Arena, Rostov-on-Don
+ Iceland vs Morocco , Cosmos Arena, Samara
+ Poland vs England , Luzhniki Stadium, Moscow
 
 June 18
- Denmark vs Panama , Nizhny Novgorod Stadium, Nizhny Novgorod
- Belgium vs Colombia , Fisht Olympic Stadium, Sochi
- Senegal vs SouthKorea , Volgograd Arena, Volgograd
+ CostaRica vs SaudiArabia , Nizhny Novgorod Stadium, Nizhny Novgorod
+ Portugal vs Peru , Fisht Olympic Stadium, Sochi
+ Denmark vs Nigeria , Volgograd Arena, Volgograd
 
 June 19
- Germany vs England , Otkrytiye Arena, Moscow
- Egypt vs SaudiArabia , Mordovia Arena, Saransk
- Russia vs CostaRica , Krestovsky Stadium, Saint Petersburg
+ France vs Uruguay , Otkrytiye Arena, Moscow
+ Iran vs Serbia , Mordovia Arena, Saransk
+ Russia vs Senegal , Krestovsky Stadium, Saint Petersburg
 
 June 20
- Nigeria vs Peru , Rostov Arena, Rostov-on-Don
- Brazil vs Sweden , Luzhniki Stadium, Moscow
- Australia vs Switzerland , Kazan Arena, Kazan
+ SouthKorea vs Switzerland , Rostov Arena, Rostov-on-Don
+ Belgium vs Egypt , Luzhniki Stadium, Moscow
+ Australia vs Croatia , Kazan Arena, Kazan
 
 June 21
- Portugal vs Iran , Central Stadium, Yekaterinburg
- Morocco vs Croatia , Cosmos Arena, Samara
- France vs Tunisia , Nizhny Novgorod Stadium, Nizhny Novgorod
+ Argentina vs Sweden , Central Stadium, Yekaterinburg
+ Japan vs Mexico , Cosmos Arena, Samara
+ Germany vs Tunisia , Nizhny Novgorod Stadium, Nizhny Novgorod
 
 June 22
- Japan vs Spain , Volgograd Arena, Volgograd
- Argentina vs Iceland , Krestovsky Stadium, Saint Petersburg
- Serbia vs Mexico , Kaliningrad Stadium, Kaliningrad
+ Panama vs Colombia , Volgograd Arena, Volgograd
+ Brazil vs Iceland , Krestovsky Stadium, Saint Petersburg
+ Morocco vs Spain , Kaliningrad Stadium, Kaliningrad
 
 June 23
- Poland vs Denmark , Fisht Olympic Stadium, Sochi
- Panama vs Uruguay , Rostov Arena, Rostov-on-Don
- Belgium vs Senegal , Otkrytiye Arena, Moscow
+ Poland vs CostaRica , Fisht Olympic Stadium, Sochi
+ SaudiArabia vs England , Rostov Arena, Rostov-on-Don
+ Portugal vs Denmark , Otkrytiye Arena, Moscow
 
 June 24
- SouthKorea vs Colombia , Nizhny Novgorod Stadium, Nizhny Novgorod
- Germany vs Egypt , Kazan Arena, Kazan
- SaudiArabia vs England , Central Stadium, Yekaterinburg
+ Nigeria vs Peru , Nizhny Novgorod Stadium, Nizhny Novgorod
+ France vs Iran , Kazan Arena, Kazan
+ Serbia vs Uruguay , Central Stadium, Yekaterinburg
 
 June 25
- Nigeria vs Russia , Cosmos Arena, Samara
- Peru vs CostaRica , Volgograd Arena, Volgograd
- Australia vs Brazil , Mordovia Arena, Saransk
- Switzerland vs Sweden , Kaliningrad Stadium, Kaliningrad
+ SouthKorea vs Russia , Cosmos Arena, Samara
+ Switzerland vs Senegal , Volgograd Arena, Volgograd
+ Australia vs Belgium , Mordovia Arena, Saransk
+ Croatia vs Egypt , Kaliningrad Stadium, Kaliningrad
 
 June 26
- Morocco vs Portugal , Luzhniki Stadium, Moscow
- Croatia vs Iran , Fisht Olympic Stadium, Sochi
- Japan vs France , Krestovsky Stadium, Saint Petersburg
- Spain vs Tunisia , Rostov Arena, Rostov-on-Don
+ Japan vs Argentina , Luzhniki Stadium, Moscow
+ Mexico vs Sweden , Fisht Olympic Stadium, Sochi
+ Panama vs Germany , Krestovsky Stadium, Saint Petersburg
+ Colombia vs Tunisia , Rostov Arena, Rostov-on-Don
 
 June 27
- Serbia vs Argentina , Otkrytiye Arena, Moscow
- Mexico vs Iceland , Nizhny Novgorod Stadium, Nizhny Novgorod
- Panama vs Poland , Kazan Arena, Kazan
- Uruguay vs Denmark , Central Stadium, Yekaterinburg
+ Morocco vs Brazil , Otkrytiye Arena, Moscow
+ Spain vs Iceland , Nizhny Novgorod Stadium, Nizhny Novgorod
+ SaudiArabia vs Poland , Kazan Arena, Kazan
+ England vs CostaRica , Central Stadium, Yekaterinburg
 
 June 28
- SouthKorea vs Belgium , Kaliningrad Stadium, Kaliningrad
- Colombia vs Senegal , Mordovia Arena, Saransk
- SaudiArabia vs Germany , Volgograd Arena, Volgograd
- England vs Egypt , Cosmos Arena, Samara
+ Nigeria vs Portugal , Kaliningrad Stadium, Kaliningrad
+ Peru vs Denmark , Mordovia Arena, Saransk
+ Serbia vs France , Volgograd Arena, Volgograd
+ Uruguay vs Iran , Cosmos Arena, Samara
 

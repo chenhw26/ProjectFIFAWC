@@ -42,49 +42,49 @@ SaudiArabia
 The Final Draw:
 Group A
 Russia
-Peru
-CostaRica
-Nigeria
-
-Group B
-Brazil
 Switzerland
-Sweden
-Australia
-
-Group C
-Portugal
-Croatia
-Iran
-Morocco
-
-Group D
-France
-Spain
-Tunisia
-Japan
-
-Group E
-Argentina
-Mexico
-Iceland
-Serbia
-
-Group F
-Poland
-Uruguay
-Denmark
-Panama
-
-Group G
-Belgium
-Colombia
 Senegal
 SouthKorea
 
-Group H
-Germany
-England
+Group B
+Belgium
+Croatia
 Egypt
+Australia
+
+Group C
+Argentina
+Mexico
+Sweden
+Japan
+
+Group D
+Germany
+Colombia
+Tunisia
+Panama
+
+Group E
+Brazil
+Spain
+Iceland
+Morocco
+
+Group F
+Poland
+England
+CostaRica
 SaudiArabia
+
+Group G
+Portugal
+Peru
+Denmark
+Nigeria
+
+Group H
+France
+Uruguay
+Iran
+Serbia
 

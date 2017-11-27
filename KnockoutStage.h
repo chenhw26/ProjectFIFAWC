@@ -1,5 +1,5 @@
-#ifndef KONCKOUTSTAGE
-#define KONCKOUTSTAGE
+#ifndef KNOCKOUTSTAGE
+#define KNOCKOUTSTAGE
 
 #include "Team.h"
 #include "Match.h"
@@ -12,12 +12,12 @@
 
 class Result;
 
-class KonckoutStage{
+class KnockoutStage{
 friend class Result;
 
 public:
 	//构造函数，传入十六强队伍
-	KonckoutStage(const vector<Team> &_top16):top16(_top16){
+	KnockoutStage(const vector<Team> &_top16):top16(_top16){
 		printTeam16(cout);
 		ofstream fout("data/Team16.txt");
 		printTeam16(fout);
@@ -65,7 +65,6 @@ private:
 
 	//执行一场比赛，记下胜出队伍，双方得分，点球数.
 	bool play(Match& match, pair<int, int>& score, pair<int, int>& penalty, Result &res) const;
-
 
 	vector<Team> top16, top8, top4, FinalTeams, Rank;
 	vector<Match> Round16[4], Quarter_finals[2], Semi_finals[2], Final[2];
